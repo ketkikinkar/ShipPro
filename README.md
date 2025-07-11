@@ -23,11 +23,9 @@ ShipPro/
 └── Data/
     └── uszips.csv        # US zip code database
 ```
-## Demo Video
+## Demo
 
-Watch ShipPro in action:
-
-https://github.com/yourusername/ShipPro/assets/demo-video.mp4
+![Demo Video](./assets/DemoVideo.mov)
 
 ## Installation
 
