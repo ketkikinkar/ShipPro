@@ -25,7 +25,7 @@ ShipPro/
 ```
 ## Demo
 
-![Demo Video](./assets/DemoVideo.mov)
+[![Demo Video](./assets/DemoVideo.mov)](https://github.com/ketkikinkar/ShipPro/blob/main/assets/DemoVideogif.gif)
 
 ## Installation
 
