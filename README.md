@@ -25,7 +25,10 @@ ShipPro/
 ```
 ## Demo
 
-[![Demo Video](./assets/DemoVideo.mov)](https://github.com/ketkikinkar/ShipPro/blob/main/assets/DemoVideogif.gif)
+<div align="center">
+  <img src="./assets/DemoVideogif.gif" alt="ShipPro Demo" width="90%">
+  <p><em>ShipPro in action - from zip code input to instant shipping estimates</em></p>
+</div>
 
 ## Installation
 
