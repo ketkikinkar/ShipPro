@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShipPro - Shipping Calculator</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+        
+        .main-container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        
+        .header-card {
+            background: white;
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        
+        .header-title {
+            font-size: 2rem;
+            font-weight: 600;
+            color: #212529;
+            margin-bottom: 0.5rem;
+        }
+        
+        .header-subtitle {
+            color: #6c757d;
+            margin: 0;
+        }
+        
+        .calculator-card {
+            background: white;
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .section-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #212529;
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+        
+        .form-label {
+            font-weight: 500;
+            color: #495057;
+            margin-bottom: 0.5rem;
+        }
+        
+        .form-control {
+            border-radius: 6px;
+            border: 1px solid #ced4da;
+            padding: 0.5rem 0.75rem;
+        }
+        
+        .form-control:focus {
+            border-color: #0d6efd;
+            box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+        }
+        
+        .btn-calculate {
+            background-color: #0d6efd;
+            border-color: #0d6efd;
+            padding: 0.75rem 2rem;
+            font-weight: 500;
+            border-radius: 6px;
+        }
+        
+        .btn-calculate:hover {
+            background-color: #0b5ed7;
+            border-color: #0a58ca;
+        }
+        
+        .metrics-card {
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-radius: 6px;
+            padding: 1rem;
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+        
+        .metrics-text {
+            font-size: 0.875rem;
+            color: #6c757d;
+            margin: 0;
+        }
+        
+        .service-card {
+            background: white;
+            border: 1px solid #dee2e6;
+            border-radius: 6px;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .service-name {
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: #212529;
+            margin-bottom: 1rem;
+            text-align: center;
+            background: #f8f9fa;
+            padding: 0.75rem;
+            border-radius: 4px;
+        }
+        
+        .service-badge {
+            font-size: 0.75rem;
+            color: #6c757d;
+        }
+        
+        .service-details {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+        }
+        
+        .detail-item {
+            text-align: center;
+            background: #f8f9fa;
+            border-radius: 4px;
+            padding: 1rem;
+        }
+        
+        .detail-label {
+            font-size: 0.75rem;
+            color: #6c757d;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.5rem;
+        }
+        
+        .detail-value {
+            font-size: 1rem;
+            color: #212529;
+            font-weight: 600;
+        }
+        
+        .alert-peak {
+            background-color: #fff3cd;
+            border: 1px solid #ffeaa7;
+            color: #856404;
+            padding: 0.75rem;
+            border-radius: 6px;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+        
+        .loading-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 1050;
+        }
+        
+        .loading-content {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            text-align: center;
+        }
+        
+        .spinner-border {
+            color: #0d6efd;
+        }
+        
+        @media (max-width: 768px) {
+            .main-container {
+                margin: 1rem auto;
+                padding: 0 0.5rem;
+            }
+            
+            .calculator-card {
+                padding: 1.5rem;
+            }
+            
+            .service-details {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <!-- Header -->
+        <div class="header-card">
+            <h1 class="header-title">ShipPro</h1>
+            <p class="header-subtitle">Shipping cost and delivery estimation</p>
+        </div>
+        
+        <!-- Calculator -->
+        <div class="calculator-card">
+            <h2 class="section-title">Calculate Shipping</h2>
+            
+            <form id="shippingForm">
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="origin" class="form-label">Origin Zip Code</label>
+                        <input type="text" class="form-control" id="origin" placeholder="10001" maxlength="5" pattern="[0-9]{5}" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="destination" class="form-label">Destination Zip Code</label>
+                        <input type="text" class="form-control" id="destination" placeholder="90210" maxlength="5" pattern="[0-9]{5}" required>
+                    </div>
+                </div>
+                
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary btn-calculate">Calculate Shipping</button>
+                </div>
+            </form>
+        </div>
+        
+        <!-- Results -->
+        <div id="results" style="display: none;">
+            <!-- Metrics will be inserted here -->
+            
+            <!-- Peak season alert will be inserted here -->
+            
+            <!-- Shipping options will be inserted here -->
+        </div>
+        
+        <!-- Error Alert -->
+        <div id="errorAlert" class="alert alert-danger" style="display: none;" role="alert">
+            <span id="errorMessage"></span>
+        </div>
+    </div>
+    
+    <!-- Loading Overlay -->
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loading-content">
+            <div class="spinner-border" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+            <div class="mt-2">Calculating shipping options...</div>
+        </div>
+    </div>
+    
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script>
+        document.getElementById('shippingForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const origin = document.getElementById('origin').value.trim();
+            const destination = document.getElementById('destination').value.trim();
+            
+            // Hide previous results and errors
+            document.getElementById('results').style.display = 'none';
+            document.getElementById('errorAlert').style.display = 'none';
+            
+            // Validation
+            if (!origin || !destination) {
+                showError('Please enter both origin and destination zip codes.');
+                return;
+            }
+            
+            if (origin.length !== 5 || destination.length !== 5) {
+                showError('Please enter valid 5-digit zip codes.');
+                return;
+            }
+            
+            if (!/^\d{5}$/.test(origin) || !/^\d{5}$/.test(destination)) {
+                showError('Zip codes must contain only numbers.');
+                return;
+            }
+            
+            // Show loading
+            document.getElementById('loadingOverlay').style.display = 'flex';
+            
+            // Make API call
+            fetch('/api/calculate', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    origin: origin,
+                    destination: destination
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('loadingOverlay').style.display = 'none';
+                
+                if (data.error) {
+                    showError(data.error);
+                } else {
+                    showResults(data);
+                }
+            })
+            .catch(error => {
+                document.getElementById('loadingOverlay').style.display = 'none';
+                showError('An error occurred while calculating shipping estimates.');
+            });
+        });
+        
+        function showError(message) {
+            document.getElementById('errorMessage').textContent = message;
+            document.getElementById('errorAlert').style.display = 'block';
+            document.getElementById('results').style.display = 'none';
+        }
+        
+        function showResults(data) {
+            const resultsDiv = document.getElementById('results');
+            
+            // Find metrics
+            const fastest = data.estimates.reduce((min, est) => est.delivery_days < min.delivery_days ? est : min);
+            const cheapest = data.estimates.reduce((min, est) => est.cost < min.cost ? est : min);
+            
+            let html = '';
+            
+            // Metrics
+            html += `
+                <div class="metrics-card">
+                    <p class="metrics-text">
+                        <strong>${data.distance_miles}</strong> miles • 
+                        <strong>${fastest.delivery_days}</strong> days fastest • 
+                        <strong>$${cheapest.cost}</strong> cheapest • 
+                        <strong>${data.estimates.length}</strong> options available
+                    </p>
+                </div>
+            `;
+            
+            // Peak season alert
+            if (data.peak_season) {
+                html += `
+                    <div class="alert-peak">
+                        <strong>Peak Season:</strong> ${data.peak_type.charAt(0).toUpperCase() + data.peak_type.slice(1)} - expect 1-2 additional days
+                    </div>
+                `;
+            }
+            
+            // Shipping options
+            html += '<h3 class="section-title">Available Options</h3>';
+            
+            const sortedEstimates = data.estimates.sort((a, b) => a.delivery_days - b.delivery_days);
+            
+            for (const estimate of sortedEstimates) {
+                let badges = '';
+                if (estimate.delivery_days === fastest.delivery_days) {
+                    badges += ' • <span class="service-badge">FASTEST</span>';
+                }
+                if (estimate.cost === cheapest.cost) {
+                    badges += ' • <span class="service-badge">BEST VALUE</span>';
+                }
+                
+                html += `
+                    <div class="service-card">
+                        <div class="service-name">${estimate.service_name}${badges}</div>
+                        <div class="service-details">
+                            <div class="detail-item">
+                                <div class="detail-label">Delivery</div>
+                                <div class="detail-value">${estimate.delivery_date}</div>
+                            </div>
+                            <div class="detail-item">
+                                <div class="detail-label">Days</div>
+                                <div class="detail-value">${estimate.delivery_days}</div>
+                            </div>
+                            <div class="detail-item">
+                                <div class="detail-label">Cost</div>
+                                <div class="detail-value">$${estimate.cost}</div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }
+            
+            resultsDiv.innerHTML = html;
+            resultsDiv.style.display = 'block';
+            document.getElementById('errorAlert').style.display = 'none';
+        }
+        
+        // Input validation - only allow numbers
+        document.getElementById('origin').addEventListener('input', function(e) {
+            e.target.value = e.target.value.replace(/[^0-9]/g, '');
+        });
+        
+        document.getElementById('destination').addEventListener('input', function(e) {
+            e.target.value = e.target.value.replace(/[^0-9]/g, '');
+        });
+    </script>
+</body>
+</html> 
