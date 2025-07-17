@@ -80,5 +80,4 @@ flowchart TD
 
 ---
 
-## Summary
 This architecture leverages AWS managed services for a robust, scalable, and low-latency real-time data pipeline. It ensures sub-100ms end-to-end latency by using serverless compute, in-memory feature engineering, and fast NoSQL lookups, with comprehensive monitoring and failure handling throughout the stack. 
