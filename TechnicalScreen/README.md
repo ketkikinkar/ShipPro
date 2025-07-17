@@ -1,4 +1,4 @@
-# TechnicalScreen - Technical Assessment Project
+# TechnicalScreen 
 
 A comprehensive technical assessment covering data engineering, system design, and MLOps deployment for a delivery date prediction system.
 
@@ -98,41 +98,3 @@ Open [`Task 2/task_2_system_design.md`](Task%202/task_2_system_design.md) to see
 
 ### Viewing Task 3 (MLOps)
 Open [`Task 3/task_3_mlops_deployment.md`](Task%203/task_3_mlops_deployment.md) to see the complete production deployment strategy.
-
-## Key Concepts Covered
-
-### Data Engineering
-- JSON log processing
-- Feature engineering for time-based data
-- Batch vs real-time processing optimization
-- Data validation and error handling
-
-### System Design
-- Real-time streaming architecture
-- AWS managed services integration
-- Low-latency optimization strategies
-- Monitoring and observability patterns
-
-### MLOps
-- Model versioning and registry
-- Production API design
-- Monitoring and drift detection
-- Automated deployment and rollback
-- Infrastructure as Code
-
-## Business Context
-
-This project addresses a real-world scenario where an e-commerce platform needs to:
-1. Process clickstream data to understand user behavior
-2. Build real-time features for delivery date prediction
-3. Deploy and maintain ML models in production
-
-The solution demonstrates scalable, maintainable, and production-ready approaches to each challenge.
-
-## Contributing
-
-This is a technical assessment project. For questions or clarifications about the implementation, please refer to the individual task documentation files.
-
----
-
-**Note**: This project demonstrates theoretical and practical approaches to modern data engineering, system design, and MLOps challenges. The implementations are designed to be educational and showcase best practices in each domain. 
