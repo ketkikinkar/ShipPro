@@ -1,7 +1,5 @@
 # TechnicalScreen 
 
-A comprehensive technical assessment covering data engineering, system design, and MLOps deployment for a delivery date prediction system.
-
 ## Project Overview
 
 This project demonstrates end-to-end technical capabilities across three key areas:
