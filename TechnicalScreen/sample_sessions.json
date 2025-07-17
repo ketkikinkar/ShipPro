@@ -1,0 +1,3223 @@
+[
+  {
+    "_index": "gruntstyle.myshopify.com-derrh-2024.11",
+    "_type": "fenix",
+    "_id": "0b541211-6f65-4b6e-bb0c-ded5ad3e78c7",
+    "_score": 1,
+    "_source": {
+      "id": "0b541211-6f65-4b6e-bb0c-ded5ad3e78c7",
+      "tenantId": "01976e2d21f545fa89f3f5cff1cb73b6",
+      "sessionTrackId": "MTczMTg1ODYyNjE2Mi13d3cuZ3J1bnRzdHlsZS5jb20tMjc4NA==",
+      "internalSessionId": "e70ff385-c74a-4eba-84c4-3094eff84f59",
+      "createdDateTime": 1731880381293,
+      "request": {
+        "cartId": null,
+        "orderId": "no-token",
+        "tenantId": "01976e2d21f545fa89f3f5cff1cb73b6",
+        "pageType": "PDP",
+        "monetaryValue": 35.99,
+        "buyerZipCode": "85025",
+        "platformType": null,
+        "customerType": null,
+        "smartShipping": false,
+        "sessionTrackId": "MTczMTg1ODYyNjE2Mi13d3cuZ3J1bnRzdHlsZS5jb20tMjc4NA==",
+        "responseFormat": "json",
+        "skus": [
+          {
+            "sku": "GS6737-S",
+            "quantity": 1,
+            "leadTime": 0,
+            "weight": {
+              "value": 1.1023113,
+              "units": "LB",
+              "weightInLBS": 1.1023112535476685
+            },
+            "threshold": 0,
+            "category": null,
+            "nonShip": false,
+            "productId": "7404413681715",
+            "variantId": "42593196736563",
+            "productName": "Women's Wife Defined Hoodie - Black",
+            "itemType": "REGULAR",
+            "dimensions": {
+              "length": 8,
+              "width": 6,
+              "height": 5,
+              "girth": 3,
+              "thickness": 0,
+              "weightLimit": null,
+              "units": "IN"
+            },
+            "digitalProduct": false,
+            "skuInventories": [],
+            "customerType": "REGULAR"
+          }
+        ],
+        "shopifyRequest": false,
+        "merchantInfo": null,
+        "customerTags": null,
+        "shippingInfo": null,
+        "checkoutInfo": null,
+        "buyerAddress": {
+          "address1": null,
+          "address2": null,
+          "city": null,
+          "country": "US",
+          "state": "AZ",
+          "zipcode": "85025",
+          "name": null,
+          "details": null,
+          "residential": null
+        },
+        "residentialAddress": false,
+        "splitTestInfo": {
+          "testId": "65b76914-4094-4577-aead-499814109f7d",
+          "testName": "Incremental Analysis - Test 1",
+          "variantId": "92fcc6f3-fabc-44a1-be48-8f755bd50bb0",
+          "variantName": "Hide EDD"
+        },
+        "additionalProcessing": false,
+        "carbonNeutralShipping": false,
+        "serviceInfos": null,
+        "exceptionalTypes": null,
+        "internalSessionUUID": "e70ff385-c74a-4eba-84c4-3094eff84f59",
+        "originalSkus": null
+      },
+      "orderId": "no-token",
+      "trackingId": null,
+      "lineItemInfo": "GS6737-S(1)",
+      "buyerAddressInfo": "85025|AZ|US",
+      "triggeredDateTime": "2024-11-17T09:53:01.293-06:00",
+      "responses": [
+        {
+          "webId": "GS6737-S",
+          "hours": "13",
+          "minutes": "6",
+          "response": "Estimated Delivery by <span class=fenix-resp-span-date>Fri, Nov 22</span>, with <span class=fenix-resp-span-shippingname>Rush Shipping </span>",
+          "transitTime": 0,
+          "calendarTime": 0,
+          "shippingCost": null,
+          "buyerZipCode": "85025",
+          "deliveryZone": "DEFAULT",
+          "shippingDateTime": "19 Nov 2024, 17:00",
+          "internalRequestId": null,
+          "shippingMethodDesc": "Rush Shipping",
+          "internationalOrder": false,
+          "splitTestInfo": {
+            "testId": "65b76914-4094-4577-aead-499814109f7d",
+            "testName": "Incremental Analysis - Test 1",
+            "variantId": "92fcc6f3-fabc-44a1-be48-8f755bd50bb0",
+            "variantName": "Hide EDD"
+          },
+          "formattedDeliveryDate": "Fri, Nov 22",
+          "guaranteedDeliveryDate": "Fri, 22 Nov 2024",
+          "errorMessage": null,
+          "shippingOptionMappingId": null,
+          "packages": [
+            {
+              "carrier": "UPS",
+              "carrierZone": "6",
+              "wrapperType": "DEFAULT",
+              "shipperLocId": "manual",
+              "deliveryDate": "Fri, Nov 22",
+              "shippingDate": "19 Nov 2024, 17:00",
+              "shipperZipCode": "60188",
+              "shippingMethod": "13",
+              "actualMethodDesc": "UPS Next Day Air Saver",
+              "externalShippingMethod": null,
+              "offsetInfo": null,
+              "shipmentContents": [
+                {
+                  "skuId": "GS6737-S",
+                  "quantity": 1
+                }
+              ]
+            }
+          ],
+          "premiumShippingResponse": false,
+          "shipCostBreakUp": null,
+          "deliveryTimeInfo": {
+            "shippingTime": 1,
+            "carrierTransitTime": 3,
+            "totalTransitTime": 4
+          },
+          "allocationResponse": null,
+          "orderRoutingInfo": null,
+          "premiumShippingResponseInfo": null,
+          "prePurchaseShippingInfos": null,
+          "shippingDeliveryDate": "Fri, 22 Nov 2024",
+          "hideResponse": true,
+          "code": null
+        },
+        {
+          "webId": "GS6737-S",
+          "hours": "13",
+          "minutes": "6",
+          "response": "Estimated Delivery by <span class=fenix-resp-span-date>Mon, Nov 25</span>, with <span class=fenix-resp-span-shippingname>Standard Shipping </span>",
+          "transitTime": 0,
+          "calendarTime": 0,
+          "shippingCost": null,
+          "buyerZipCode": "85025",
+          "deliveryZone": "DEFAULT",
+          "shippingDateTime": "19 Nov 2024, 17:00",
+          "internalRequestId": null,
+          "shippingMethodDesc": "Standard Shipping",
+          "internationalOrder": false,
+          "splitTestInfo": {
+            "testId": "65b76914-4094-4577-aead-499814109f7d",
+            "testName": "Incremental Analysis - Test 1",
+            "variantId": "92fcc6f3-fabc-44a1-be48-8f755bd50bb0",
+            "variantName": "Hide EDD"
+          },
+          "formattedDeliveryDate": "Mon, Nov 25",
+          "guaranteedDeliveryDate": "Mon, 25 Nov 2024",
+          "errorMessage": null,
+          "shippingOptionMappingId": null,
+          "packages": [
+            {
+              "carrier": "NEWGISTICS",
+              "carrierZone": "6",
+              "wrapperType": "DEFAULT",
+              "shipperLocId": "manual",
+              "deliveryDate": "Mon, Nov 25",
+              "shippingDate": "19 Nov 2024, 17:00",
+              "shipperZipCode": "60188",
+              "shippingMethod": "PARCEL_SELECT",
+              "actualMethodDesc": "Parcel Select",
+              "externalShippingMethod": null,
+              "offsetInfo": null,
+              "shipmentContents": [
+                {
+                  "skuId": "GS6737-S",
+                  "quantity": 1
+                }
+              ]
+            }
+          ],
+          "premiumShippingResponse": false,
+          "shipCostBreakUp": null,
+          "deliveryTimeInfo": {
+            "shippingTime": 1,
+            "carrierTransitTime": 5,
+            "totalTransitTime": 6
+          },
+          "allocationResponse": null,
+          "orderRoutingInfo": null,
+          "premiumShippingResponseInfo": null,
+          "prePurchaseShippingInfos": null,
+          "shippingDeliveryDate": "Mon, 25 Nov 2024",
+          "hideResponse": true,
+          "code": null
+        },
+        {
+          "webId": "GS6737-S",
+          "hours": "13",
+          "minutes": "6",
+          "response": "Estimated Delivery by <span class=fenix-resp-span-date>Mon, Nov 25</span>, with <span class=fenix-resp-span-shippingname>Expedited Shipping </span>",
+          "transitTime": 0,
+          "calendarTime": 0,
+          "shippingCost": null,
+          "buyerZipCode": "85025",
+          "deliveryZone": "DEFAULT",
+          "shippingDateTime": "19 Nov 2024, 16:00",
+          "internalRequestId": null,
+          "shippingMethodDesc": "Expedited Shipping",
+          "internationalOrder": false,
+          "splitTestInfo": {
+            "testId": "65b76914-4094-4577-aead-499814109f7d",
+            "testName": "Incremental Analysis - Test 1",
+            "variantId": "92fcc6f3-fabc-44a1-be48-8f755bd50bb0",
+            "variantName": "Hide EDD"
+          },
+          "formattedDeliveryDate": "Mon, Nov 25",
+          "guaranteedDeliveryDate": "Mon, 25 Nov 2024",
+          "errorMessage": null,
+          "shippingOptionMappingId": null,
+          "packages": [
+            {
+              "carrier": "USPS",
+              "carrierZone": "6",
+              "wrapperType": "DEFAULT",
+              "shipperLocId": "manual",
+              "deliveryDate": "Sat, Nov 23",
+              "shippingDate": "19 Nov 2024, 16:00",
+              "shipperZipCode": "60188",
+              "shippingMethod": "Priority Mail",
+              "actualMethodDesc": "Priority Mail",
+              "externalShippingMethod": null,
+              "offsetInfo": null,
+              "shipmentContents": [
+                {
+                  "skuId": "GS6737-S",
+                  "quantity": 1
+                }
+              ]
+            }
+          ],
+          "premiumShippingResponse": false,
+          "shipCostBreakUp": null,
+          "deliveryTimeInfo": {
+            "shippingTime": 1,
+            "carrierTransitTime": 4,
+            "totalTransitTime": 5
+          },
+          "allocationResponse": null,
+          "orderRoutingInfo": null,
+          "premiumShippingResponseInfo": null,
+          "prePurchaseShippingInfos": null,
+          "shippingDeliveryDate": "Sat, 23 Nov 2024",
+          "hideResponse": true,
+          "code": null
+        }
+      ],
+      "pickFromStoreResponse": null
+    }
+  },
+  {
+    "_index": "gruntstyle.myshopify.com-derrh-2024.11",
+    "_type": "fenix",
+    "_id": "d014cc5e-280d-4bd2-a79b-f4a5bc866275",
+    "_score": 1,
+    "_source": {
+      "id": "d014cc5e-280d-4bd2-a79b-f4a5bc866275",
+      "tenantId": "01976e2d21f545fa89f3f5cff1cb73b6",
+      "sessionTrackId": "MTczMTg1NzM2MDQzNS13d3cuZ3J1bnRzdHlsZS5jb20tMjgzMjQ=",
+      "internalSessionId": "588409c3-bcfd-4c0a-8c47-30657cde3bea",
+      "createdDateTime": 1731880381828,
+      "request": {
+        "cartId": null,
+        "orderId": null,
+        "tenantId": "01976e2d21f545fa89f3f5cff1cb73b6",
+        "pageType": "COP",
+        "monetaryValue": 145.86,
+        "buyerZipCode": "18040",
+        "platformType": null,
+        "customerType": null,
+        "smartShipping": false,
+        "sessionTrackId": "MTczMTg1NzM2MDQzNS13d3cuZ3J1bnRzdHlsZS5jb20tMjgzMjQ=",
+        "responseFormat": "json",
+        "skus": [
+          {
+            "sku": "GS5342-2XL",
+            "quantity": 1,
+            "leadTime": 0,
+            "weight": {
+              "value": 1.9841603,
+              "units": "LB",
+              "weightInLBS": 1.984160304069519
+            },
+            "threshold": 0,
+            "category": null,
+            "nonShip": false,
+            "productId": "6762079846451",
+            "variantId": "40681376776243",
+            "productName": "Grunt Style Woobie Full-Zip Hoodie - Black",
+            "itemType": "REGULAR",
+            "dimensions": {
+              "length": 8,
+              "width": 6,
+              "height": 5,
+              "girth": 3,
+              "thickness": 0,
+              "weightLimit": null,
+              "units": "IN"
+            },
+            "digitalProduct": false,
+            "skuInventories": [],
+            "customerType": "REGULAR"
+          },
+          {
+            "sku": "GS5656",
+            "quantity": 1,
+            "leadTime": 0,
+            "weight": {
+              "value": 0.30864716,
+              "units": "LB",
+              "weightInLBS": 0.30864715576171875
+            },
+            "threshold": 0,
+            "category": null,
+            "nonShip": false,
+            "productId": "6847884525619",
+            "variantId": "41042113560627",
+            "productName": "Cuffed Beanie - Safety Orange",
+            "itemType": "REGULAR",
+            "dimensions": {
+              "length": 8,
+              "width": 6,
+              "height": 5,
+              "girth": 3,
+              "thickness": 0,
+              "weightLimit": null,
+              "units": "IN"
+            },
+            "digitalProduct": false,
+            "skuInventories": [],
+            "customerType": "REGULAR"
+          },
+          {
+            "sku": "GS6630-2XL",
+            "quantity": 1,
+            "leadTime": 0,
+            "weight": {
+              "value": 0.5070632,
+              "units": "LB",
+              "weightInLBS": 0.5070632100105286
+            },
+            "threshold": 0,
+            "category": null,
+            "nonShip": false,
+            "productId": "7433665282099",
+            "variantId": "42695913734195",
+            "productName": "2A Rudy T-Shirt - Black",
+            "itemType": "REGULAR",
+            "dimensions": {
+              "length": 8,
+              "width": 6,
+              "height": 5,
+              "girth": 3,
+              "thickness": 0,
+              "weightLimit": null,
+              "units": "IN"
+            },
+            "digitalProduct": false,
+            "skuInventories": [],
+            "customerType": "REGULAR"
+          },
+          {
+            "sku": "GS6676",
+            "quantity": 1,
+            "leadTime": 0,
+            "weight": {
+              "value": 7,
+              "units": "LB",
+              "weightInLBS": 7
+            },
+            "threshold": 0,
+            "category": null,
+            "nonShip": false,
+            "productId": "7406044282931",
+            "variantId": "42599234371635",
+            "productName": "Four Toast Salute Beer Mug 24oz",
+            "itemType": "REGULAR",
+            "dimensions": {
+              "length": 8,
+              "width": 6,
+              "height": 5,
+              "girth": 3,
+              "thickness": 0,
+              "weightLimit": null,
+              "units": "IN"
+            },
+            "digitalProduct": false,
+            "skuInventories": [],
+            "customerType": "REGULAR"
+          },
+          {
+            "sku": "GS6820-2XL",
+            "quantity": 1,
+            "leadTime": 0,
+            "weight": {
+              "value": 0.5070632,
+              "units": "LB",
+              "weightInLBS": 0.5070632100105286
+            },
+            "threshold": 0,
+            "category": null,
+            "nonShip": false,
+            "productId": "7436047056947",
+            "variantId": "42704968745011",
+            "productName": "USA Flag Basic T-Shirt - Military Green",
+            "itemType": "REGULAR",
+            "dimensions": {
+              "length": 8,
+              "width": 6,
+              "height": 5,
+              "girth": 3,
+              "thickness": 0,
+              "weightLimit": null,
+              "units": "IN"
+            },
+            "digitalProduct": false,
+            "skuInventories": [],
+            "customerType": "REGULAR"
+          }
+        ],
+        "shopifyRequest": true,
+        "merchantInfo": null,
+        "customerTags": null,
+        "shippingInfo": null,
+        "checkoutInfo": null,
+        "buyerAddress": {
+          "address1": "1815 Ironwood Drive",
+          "address2": null,
+          "city": "Easton",
+          "country": "US",
+          "state": "PA",
+          "zipcode": "18040",
+          "name": "Troy Reynard",
+          "details": null,
+          "residential": null
+        },
+        "residentialAddress": false,
+        "splitTestInfo": {
+          "testId": "65b76914-4094-4577-aead-499814109f7d",
+          "testName": "Incremental Analysis - Test 1",
+          "variantId": "15f80e26-128c-4c25-93a5-0a61232dbf37",
+          "variantName": "Show EDD"
+        },
+        "additionalProcessing": false,
+        "carbonNeutralShipping": false,
+        "serviceInfos": null,
+        "exceptionalTypes": null,
+        "internalSessionUUID": "588409c3-bcfd-4c0a-8c47-30657cde3bea",
+        "originalSkus": null
+      },
+      "orderId": null,
+      "trackingId": null,
+      "lineItemInfo": "GS5342-2XL(1)|GS5656(1)|GS6630-2XL(1)|GS6676(1)|GS6820-2XL(1)",
+      "buyerAddressInfo": "TROYREYNARD|1815IRONWOODDRIVE|EASTON|18040|PA|US",
+      "triggeredDateTime": "2024-11-17T09:53:01.828-06:00",
+      "responses": [
+        {
+          "webId": "GS5342-2XL,GS5656,GS6630-2XL,GS6676,GS6820-2XL",
+          "hours": "13",
+          "minutes": "6",
+          "response": "Estimated Delivery by <span class=fenix-resp-span-date>Fri, Nov 22</span>, with <span class=fenix-resp-span-shippingname>Rush Shipping </span>",
+          "transitTime": 0,
+          "calendarTime": 0,
+          "shippingCost": {
+            "amount": 25,
+            "currency": "USD"
+          },
+          "buyerZipCode": "18040",
+          "deliveryZone": "DEFAULT",
+          "shippingDateTime": "19 Nov 2024, 17:00",
+          "internalRequestId": null,
+          "shippingMethodDesc": "Rush Shipping",
+          "internationalOrder": false,
+          "splitTestInfo": {
+            "testId": "65b76914-4094-4577-aead-499814109f7d",
+            "testName": "Incremental Analysis - Test 1",
+            "variantId": "15f80e26-128c-4c25-93a5-0a61232dbf37",
+            "variantName": "Show EDD"
+          },
+          "formattedDeliveryDate": "Fri, Nov 22",
+          "guaranteedDeliveryDate": "Fri, 22 Nov 2024",
+          "errorMessage": null,
+          "shippingOptionMappingId": null,
+          "packages": [
+            {
+              "carrier": "UPS",
+              "carrierZone": "5",
+              "wrapperType": "DEFAULT",
+              "shipperLocId": "manual",
+              "deliveryDate": "Fri, Nov 22",
+              "shippingDate": "19 Nov 2024, 17:00",
+              "shipperZipCode": "60188",
+              "shippingMethod": "13",
+              "actualMethodDesc": "UPS Next Day Air Saver",
+              "externalShippingMethod": null,
+              "offsetInfo": null,
+              "shipmentContents": [
+                {
+                  "skuId": "GS6820-2XL",
+                  "quantity": 1
+                },
+                {
+                  "skuId": "GS6676",
+                  "quantity": 1
+                },
+                {
+                  "skuId": "GS5656",
+                  "quantity": 1
+                },
+                {
+                  "skuId": "GS5342-2XL",
+                  "quantity": 1
+                },
+                {
+                  "skuId": "GS6630-2XL",
+                  "quantity": 1
+                }
+              ]
+            }
+          ],
+          "premiumShippingResponse": false,
+          "shipCostBreakUp": {
+            "breakups": [
+              {
+                "name": "BASE_CHARGES",
+                "charges": {
+                  "amount": 97.18,
+                  "currency": "USD"
+                }
+              }
+            ]
+          },
+          "deliveryTimeInfo": {
+            "shippingTime": 1,
+            "carrierTransitTime": 3,
+            "totalTransitTime": 4
+          },
+          "allocationResponse": {
+            "create_dttm": "2024-11-17T15:53:01.66Z",
+            "inventory": [
+              {
+                "sku_id": "GS6820-2XL",
+                "product_id": "7436047056947",
+                "variant_id": "42704968745011",
+                "levels": [
+                  {
+                    "loc_id": "manual",
+                    "quantity": 436,
+                    "threshold": 0,
+                    "backordered": false
+                  }
+                ]
+              },
+              {
+                "sku_id": "GS6676",
+                "product_id": "7406044282931",
+                "variant_id": "42599234371635",
+                "levels": [
+                  {
+                    "loc_id": "manual",
+                    "quantity": 377,
+                    "threshold": 0,
+                    "backordered": false
+                  }
+                ]
+              },
+              {
+                "sku_id": "GS5656",
+                "product_id": "6847884525619",
+                "variant_id": "41042113560627",
+                "levels": [
+                  {
+                    "loc_id": "manual",
+                    "quantity": 175,
+                    "threshold": 0,
+                    "backordered": false
+                  }
+                ]
+              },
+              {
+                "sku_id": "GS6630-2XL",
+                "product_id": "7433665282099",
+                "variant_id": "42695913734195",
+                "levels": [
+                  {
+                    "loc_id": "manual",
+                    "quantity": 280,
+                    "threshold": 0,
+                    "backordered": false
+                  }
+                ]
+              },
+              {
+                "sku_id": "GS5342-2XL",
+                "product_id": "6762079846451",
+                "variant_id": "40681376776243",
+                "levels": [
+                  {
+                    "loc_id": "manual",
+                    "quantity": 42,
+                    "threshold": 0,
+                    "backordered": false
+                  }
+                ]
+              }
+            ],
+            "routing_info": [
+              {
+                "loc_id": "manual",
+                "allocation_details": [
+                  {
+                    "sku_id": "GS6820-2XL",
+                    "product_id": "7436047056947",
+                    "variant_id": "42704968745011",
+                    "requested_quantity": 1,
+                    "allocated_quantity": 1
+                  },
+                  {
+                    "sku_id": "GS6676",
+                    "product_id": "7406044282931",
+                    "variant_id": "42599234371635",
+                    "requested_quantity": 1,
+                    "allocated_quantity": 1
+                  },
+                  {
+                    "sku_id": "GS5656",
+                    "product_id": "6847884525619",
+                    "variant_id": "41042113560627",
+                    "requested_quantity": 1,
+                    "allocated_quantity": 1
+                  },
+                  {
+                    "sku_id": "GS6630-2XL",
+                    "product_id": "7433665282099",
+                    "variant_id": "42695913734195",
+                    "requested_quantity": 1,
+                    "allocated_quantity": 1
+                  },
+                  {
+                    "sku_id": "GS5342-2XL",
+                    "product_id": "6762079846451",
+                    "variant_id": "40681376776243",
+                    "requested_quantity": 1,
+                    "allocated_quantity": 1
+                  }
+                ]
+              }
+            ],
+            "errors": null,
+            "applied_rules": [
+              {
+                "rule_name": "Sort Priority",
+                "priority": 2
+              }
+            ]
+          },
+          "orderRoutingInfo": [
+            {
+              "sku": "GS6820-2XL",
+              "location_id": "manual"
+            },
+            {
+              "sku": "GS6676",
+              "location_id": "manual"
+            },
+            {
+              "sku": "GS5656",
+              "location_id": "manual"
+            },
+            {
+              "sku": "GS5342-2XL",
+              "location_id": "manual"
+            },
+            {
+              "sku": "GS6630-2XL",
+              "location_id": "manual"
+            }
+          ],
+          "premiumShippingResponseInfo": null,
+          "prePurchaseShippingInfos": null,
+          "shippingDeliveryDate": "Fri, 22 Nov 2024",
+          "hideResponse": false,
+          "code": null
+        },
+        {
+          "webId": "GS5342-2XL,GS5656,GS6630-2XL,GS6676,GS6820-2XL",
+          "hours": "13",
+          "minutes": "6",
+          "response": "Estimated Delivery by <span class=fenix-resp-span-date>Sat, Nov 23</span>, with <span class=fenix-resp-span-shippingname>Standard Shipping </span>",
+          "transitTime": 0,
+          "calendarTime": 0,
+          "shippingCost": {
+            "amount": 0,
+            "currency": "USD"
+          },
+          "buyerZipCode": "18040",
+          "deliveryZone": "DEFAULT",
+          "shippingDateTime": "19 Nov 2024, 17:00",
+          "internalRequestId": null,
+          "shippingMethodDesc": "Standard Shipping",
+          "internationalOrder": false,
+          "splitTestInfo": {
+            "testId": "65b76914-4094-4577-aead-499814109f7d",
+            "testName": "Incremental Analysis - Test 1",
+            "variantId": "15f80e26-128c-4c25-93a5-0a61232dbf37",
+            "variantName": "Show EDD"
+          },
+          "formattedDeliveryDate": "Sat, Nov 23",
+          "guaranteedDeliveryDate": "Sat, 23 Nov 2024",
+          "errorMessage": null,
+          "shippingOptionMappingId": null,
+          "packages": [
+            {
+              "carrier": "DHL",
+              "carrierZone": "5",
+              "wrapperType": "DEFAULT",
+              "shipperLocId": "manual",
+              "deliveryDate": "Sat, Nov 23",
+              "shippingDate": "19 Nov 2024, 17:00",
+              "shipperZipCode": "60188",
+              "shippingMethod": "PARCEL_SELECT",
+              "actualMethodDesc": "Parcel Select",
+              "externalShippingMethod": null,
+              "offsetInfo": null,
+              "shipmentContents": [
+                {
+                  "skuId": "GS6820-2XL",
+                  "quantity": 1
+                },
+                {
+                  "skuId": "GS6676",
+                  "quantity": 1
+                },
+                {
+                  "skuId": "GS5656",
+                  "quantity": 1
+                },
+                {
+                  "skuId": "GS5342-2XL",
+                  "quantity": 1
+                },
+                {
+                  "skuId": "GS6630-2XL",
+                  "quantity": 1
+                }
+              ]
+            }
+          ],
+          "premiumShippingResponse": false,
+          "shipCostBreakUp": {
+            "breakups": [
+              {
+                "name": "BASE_CHARGES",
+                "charges": {
+                  "amount": 0,
+                  "currency": "USD"
+                }
+              }
+            ]
+          },
+          "deliveryTimeInfo": {
+            "shippingTime": 1,
+            "carrierTransitTime": 4,
+            "totalTransitTime": 5
+          },
+          "allocationResponse": {
+            "create_dttm": "2024-11-17T15:53:01.66Z",
+            "inventory": [
+              {
+                "sku_id": "GS6820-2XL",
+                "product_id": "7436047056947",
+                "variant_id": "42704968745011",
+                "levels": [
+                  {
+                    "loc_id": "manual",
+                    "quantity": 436,
+                    "threshold": 0,
+                    "backordered": false
+                  }
+                ]
+              },
+              {
+                "sku_id": "GS6676",
+                "product_id": "7406044282931",
+                "variant_id": "42599234371635",
+                "levels": [
+                  {
+                    "loc_id": "manual",
+                    "quantity": 377,
+                    "threshold": 0,
+                    "backordered": false
+                  }
+                ]
+              },
+              {
+                "sku_id": "GS5656",
+                "product_id": "6847884525619",
+                "variant_id": "41042113560627",
+                "levels": [
+                  {
+                    "loc_id": "manual",
+                    "quantity": 175,
+                    "threshold": 0,
+                    "backordered": false
+                  }
+                ]
+              },
+              {
+                "sku_id": "GS6630-2XL",
+                "product_id": "7433665282099",
+                "variant_id": "42695913734195",
+                "levels": [
+                  {
+                    "loc_id": "manual",
+                    "quantity": 280,
+                    "threshold": 0,
+                    "backordered": false
+                  }
+                ]
+              },
+              {
+                "sku_id": "GS5342-2XL",
+                "product_id": "6762079846451",
+                "variant_id": "40681376776243",
+                "levels": [
+                  {
+                    "loc_id": "manual",
+                    "quantity": 42,
+                    "threshold": 0,
+                    "backordered": false
+                  }
+                ]
+              }
+            ],
+            "routing_info": [
+              {
+                "loc_id": "manual",
+                "allocation_details": [
+                  {
+                    "sku_id": "GS6820-2XL",
+                    "product_id": "7436047056947",
+                    "variant_id": "42704968745011",
+                    "requested_quantity": 1,
+                    "allocated_quantity": 1
+                  },
+                  {
+                    "sku_id": "GS6676",
+                    "product_id": "7406044282931",
+                    "variant_id": "42599234371635",
+                    "requested_quantity": 1,
+                    "allocated_quantity": 1
+                  },
+                  {
+                    "sku_id": "GS5656",
+                    "product_id": "6847884525619",
+                    "variant_id": "41042113560627",
+                    "requested_quantity": 1,
+                    "allocated_quantity": 1
+                  },
+                  {
+                    "sku_id": "GS6630-2XL",
+                    "product_id": "7433665282099",
+                    "variant_id": "42695913734195",
+                    "requested_quantity": 1,
+                    "allocated_quantity": 1
+                  },
+                  {
+                    "sku_id": "GS5342-2XL",
+                    "product_id": "6762079846451",
+                    "variant_id": "40681376776243",
+                    "requested_quantity": 1,
+                    "allocated_quantity": 1
+                  }
+                ]
+              }
+            ],
+            "errors": null,
+            "applied_rules": [
+              {
+                "rule_name": "Sort Priority",
+                "priority": 2
+              }
+            ]
+          },
+          "orderRoutingInfo": [
+            {
+              "sku": "GS6820-2XL",
+              "location_id": "manual"
+            },
+            {
+              "sku": "GS6676",
+              "location_id": "manual"
+            },
+            {
+              "sku": "GS5656",
+              "location_id": "manual"
+            },
+            {
+              "sku": "GS5342-2XL",
+              "location_id": "manual"
+            },
+            {
+              "sku": "GS6630-2XL",
+              "location_id": "manual"
+            }
+          ],
+          "premiumShippingResponseInfo": null,
+          "prePurchaseShippingInfos": null,
+          "shippingDeliveryDate": "Sat, 23 Nov 2024",
+          "hideResponse": true,
+          "code": null
+        },
+        {
+          "webId": "GS5342-2XL,GS5656,GS6630-2XL,GS6676,GS6820-2XL",
+          "hours": "13",
+          "minutes": "6",
+          "response": "Estimated Delivery by <span class=fenix-resp-span-date>Sat, Nov 23</span>, with <span class=fenix-resp-span-shippingname>Standard Plus </span>",
+          "transitTime": 0,
+          "calendarTime": 0,
+          "shippingCost": {
+            "amount": 4.95,
+            "currency": "USD"
+          },
+          "buyerZipCode": "18040",
+          "deliveryZone": "DEFAULT",
+          "shippingDateTime": "19 Nov 2024, 17:00",
+          "internalRequestId": null,
+          "shippingMethodDesc": "Standard Plus",
+          "internationalOrder": false,
+          "splitTestInfo": {
+            "testId": "65b76914-4094-4577-aead-499814109f7d",
+            "testName": "Incremental Analysis - Test 1",
+            "variantId": "15f80e26-128c-4c25-93a5-0a61232dbf37",
+            "variantName": "Show EDD"
+          },
+          "formattedDeliveryDate": "Sat, Nov 23",
+          "guaranteedDeliveryDate": "Sat, 23 Nov 2024",
+          "errorMessage": null,
+          "shippingOptionMappingId": null,
+          "packages": [
+            {
+              "carrier": "DHL",
+              "carrierZone": "5",
+              "wrapperType": "DEFAULT",
+              "shipperLocId": "manual",
+              "deliveryDate": "Sat, Nov 23",
+              "shippingDate": "19 Nov 2024, 17:00",
+              "shipperZipCode": "60188",
+              "shippingMethod": "PARCEL_SELECT",
+              "actualMethodDesc": "Parcel Select",
+              "externalShippingMethod": null,
+              "offsetInfo": null,
+              "shipmentContents": [
+                {
+                  "skuId": "GS6820-2XL",
+                  "quantity": 1
+                },
+                {
+                  "skuId": "GS6676",
+                  "quantity": 1
+                },
+                {
+                  "skuId": "GS5656",
+                  "quantity": 1
+                },
+                {
+                  "skuId": "GS6630-2XL",
+                  "quantity": 1
+                },
+                {
+                  "skuId": "GS5342-2XL",
+                  "quantity": 1
+                }
+              ]
+            }
+          ],
+          "premiumShippingResponse": true,
+          "shipCostBreakUp": {
+            "breakups": [
+              {
+                "name": "BASE_CHARGES",
+                "charges": {
+                  "amount": 0,
+                  "currency": "USD"
+                }
+              },
+              {
+                "name": "PREMIUM_SHIPPINGUP_CHARGE",
+                "charges": {
+                  "amount": 4.95,
+                  "currency": "USD"
+                }
+              }
+            ]
+          },
+          "deliveryTimeInfo": {
+            "shippingTime": 1,
+            "carrierTransitTime": 4,
+            "totalTransitTime": 5
+          },
+          "allocationResponse": {
+            "create_dttm": "2024-11-17T15:53:01.66Z",
+            "inventory": [
+              {
+                "sku_id": "GS6820-2XL",
+                "product_id": "7436047056947",
+                "variant_id": "42704968745011",
+                "levels": [
+                  {
+                    "loc_id": "manual",
+                    "quantity": 436,
+                    "threshold": 0,
+                    "backordered": false
+                  }
+                ]
+              },
+              {
+                "sku_id": "GS6676",
+                "product_id": "7406044282931",
+                "variant_id": "42599234371635",
+                "levels": [
+                  {
+                    "loc_id": "manual",
+                    "quantity": 377,
+                    "threshold": 0,
+                    "backordered": false
+                  }
+                ]
+              },
+              {
+                "sku_id": "GS5656",
+                "product_id": "6847884525619",
+                "variant_id": "41042113560627",
+                "levels": [
+                  {
+                    "loc_id": "manual",
+                    "quantity": 175,
+                    "threshold": 0,
+                    "backordered": false
+                  }
+                ]
+              },
+              {
+                "sku_id": "GS6630-2XL",
+                "product_id": "7433665282099",
+                "variant_id": "42695913734195",
+                "levels": [
+                  {
+                    "loc_id": "manual",
+                    "quantity": 280,
+                    "threshold": 0,
+                    "backordered": false
+                  }
+                ]
+              },
+              {
+                "sku_id": "GS5342-2XL",
+                "product_id": "6762079846451",
+                "variant_id": "40681376776243",
+                "levels": [
+                  {
+                    "loc_id": "manual",
+                    "quantity": 42,
+                    "threshold": 0,
+                    "backordered": false
+                  }
+                ]
+              }
+            ],
+            "routing_info": [
+              {
+                "loc_id": "manual",
+                "allocation_details": [
+                  {
+                    "sku_id": "GS6820-2XL",
+                    "product_id": "7436047056947",
+                    "variant_id": "42704968745011",
+                    "requested_quantity": 1,
+                    "allocated_quantity": 1
+                  },
+                  {
+                    "sku_id": "GS6676",
+                    "product_id": "7406044282931",
+                    "variant_id": "42599234371635",
+                    "requested_quantity": 1,
+                    "allocated_quantity": 1
+                  },
+                  {
+                    "sku_id": "GS5656",
+                    "product_id": "6847884525619",
+                    "variant_id": "41042113560627",
+                    "requested_quantity": 1,
+                    "allocated_quantity": 1
+                  },
+                  {
+                    "sku_id": "GS6630-2XL",
+                    "product_id": "7433665282099",
+                    "variant_id": "42695913734195",
+                    "requested_quantity": 1,
+                    "allocated_quantity": 1
+                  },
+                  {
+                    "sku_id": "GS5342-2XL",
+                    "product_id": "6762079846451",
+                    "variant_id": "40681376776243",
+                    "requested_quantity": 1,
+                    "allocated_quantity": 1
+                  }
+                ]
+              }
+            ],
+            "errors": null,
+            "applied_rules": [
+              {
+                "rule_name": "Sort Priority",
+                "priority": 2
+              }
+            ]
+          },
+          "orderRoutingInfo": [
+            {
+              "sku": "GS6820-2XL",
+              "location_id": "manual"
+            },
+            {
+              "sku": "GS6676",
+              "location_id": "manual"
+            },
+            {
+              "sku": "GS5656",
+              "location_id": "manual"
+            },
+            {
+              "sku": "GS6630-2XL",
+              "location_id": "manual"
+            },
+            {
+              "sku": "GS5342-2XL",
+              "location_id": "manual"
+            }
+          ],
+          "premiumShippingResponseInfo": {
+            "baseShipCostInfo": {
+              "name": "Standard Shipping",
+              "shipCost": {
+                "amount": 0,
+                "currency": "USD"
+              }
+            },
+            "offsetResponse": {
+              "shipCost": {
+                "amount": 4.95,
+                "currency": "USD"
+              },
+              "type": "TIER",
+              "value": 0
+            },
+            "finalShippingCost": {
+              "amount": 4.95,
+              "currency": "USD"
+            }
+          },
+          "prePurchaseShippingInfos": null,
+          "shippingDeliveryDate": "Sat, 23 Nov 2024",
+          "hideResponse": false,
+          "code": null
+        },
+        {
+          "webId": "GS5342-2XL,GS5656,GS6630-2XL,GS6676,GS6820-2XL",
+          "hours": "13",
+          "minutes": "6",
+          "response": "Estimated Delivery by <span class=fenix-resp-span-date>Tue, Nov 26</span>, with <span class=fenix-resp-span-shippingname>Expedited Shipping </span>",
+          "transitTime": 0,
+          "calendarTime": 0,
+          "shippingCost": {
+            "amount": 15,
+            "currency": "USD"
+          },
+          "buyerZipCode": "18040",
+          "deliveryZone": "DEFAULT",
+          "shippingDateTime": "19 Nov 2024, 16:00",
+          "internalRequestId": null,
+          "shippingMethodDesc": "Expedited Shipping",
+          "internationalOrder": false,
+          "splitTestInfo": {
+            "testId": "65b76914-4094-4577-aead-499814109f7d",
+            "testName": "Incremental Analysis - Test 1",
+            "variantId": "15f80e26-128c-4c25-93a5-0a61232dbf37",
+            "variantName": "Show EDD"
+          },
+          "formattedDeliveryDate": "Tue, Nov 26",
+          "guaranteedDeliveryDate": "Tue, 26 Nov 2024",
+          "errorMessage": null,
+          "shippingOptionMappingId": null,
+          "packages": [
+            {
+              "carrier": "USPS",
+              "carrierZone": "5",
+              "wrapperType": "DEFAULT",
+              "shipperLocId": "manual",
+              "deliveryDate": "Mon, Nov 25",
+              "shippingDate": "19 Nov 2024, 16:00",
+              "shipperZipCode": "60188",
+              "shippingMethod": "Priority Mail",
+              "actualMethodDesc": "Priority Mail",
+              "externalShippingMethod": null,
+              "offsetInfo": null,
+              "shipmentContents": [
+                {
+                  "skuId": "GS6820-2XL",
+                  "quantity": 1
+                },
+                {
+                  "skuId": "GS6676",
+                  "quantity": 1
+                },
+                {
+                  "skuId": "GS5656",
+                  "quantity": 1
+                },
+                {
+                  "skuId": "GS5342-2XL",
+                  "quantity": 1
+                },
+                {
+                  "skuId": "GS6630-2XL",
+                  "quantity": 1
+                }
+              ]
+            }
+          ],
+          "premiumShippingResponse": false,
+          "shipCostBreakUp": {
+            "breakups": [
+              {
+                "name": "BASE_CHARGES",
+                "charges": {
+                  "amount": 10.75,
+                  "currency": "USD"
+                }
+              }
+            ]
+          },
+          "deliveryTimeInfo": {
+            "shippingTime": 1,
+            "carrierTransitTime": 5,
+            "totalTransitTime": 6
+          },
+          "allocationResponse": {
+            "create_dttm": "2024-11-17T15:53:01.66Z",
+            "inventory": [
+              {
+                "sku_id": "GS6820-2XL",
+                "product_id": "7436047056947",
+                "variant_id": "42704968745011",
+                "levels": [
+                  {
+                    "loc_id": "manual",
+                    "quantity": 436,
+                    "threshold": 0,
+                    "backordered": false
+                  }
+                ]
+              },
+              {
+                "sku_id": "GS6676",
+                "product_id": "7406044282931",
+                "variant_id": "42599234371635",
+                "levels": [
+                  {
+                    "loc_id": "manual",
+                    "quantity": 377,
+                    "threshold": 0,
+                    "backordered": false
+                  }
+                ]
+              },
+              {
+                "sku_id": "GS5656",
+                "product_id": "6847884525619",
+                "variant_id": "41042113560627",
+                "levels": [
+                  {
+                    "loc_id": "manual",
+                    "quantity": 175,
+                    "threshold": 0,
+                    "backordered": false
+                  }
+                ]
+              },
+              {
+                "sku_id": "GS6630-2XL",
+                "product_id": "7433665282099",
+                "variant_id": "42695913734195",
+                "levels": [
+                  {
+                    "loc_id": "manual",
+                    "quantity": 280,
+                    "threshold": 0,
+                    "backordered": false
+                  }
+                ]
+              },
+              {
+                "sku_id": "GS5342-2XL",
+                "product_id": "6762079846451",
+                "variant_id": "40681376776243",
+                "levels": [
+                  {
+                    "loc_id": "manual",
+                    "quantity": 42,
+                    "threshold": 0,
+                    "backordered": false
+                  }
+                ]
+              }
+            ],
+            "routing_info": [
+              {
+                "loc_id": "manual",
+                "allocation_details": [
+                  {
+                    "sku_id": "GS6820-2XL",
+                    "product_id": "7436047056947",
+                    "variant_id": "42704968745011",
+                    "requested_quantity": 1,
+                    "allocated_quantity": 1
+                  },
+                  {
+                    "sku_id": "GS6676",
+                    "product_id": "7406044282931",
+                    "variant_id": "42599234371635",
+                    "requested_quantity": 1,
+                    "allocated_quantity": 1
+                  },
+                  {
+                    "sku_id": "GS5656",
+                    "product_id": "6847884525619",
+                    "variant_id": "41042113560627",
+                    "requested_quantity": 1,
+                    "allocated_quantity": 1
+                  },
+                  {
+                    "sku_id": "GS6630-2XL",
+                    "product_id": "7433665282099",
+                    "variant_id": "42695913734195",
+                    "requested_quantity": 1,
+                    "allocated_quantity": 1
+                  },
+                  {
+                    "sku_id": "GS5342-2XL",
+                    "product_id": "6762079846451",
+                    "variant_id": "40681376776243",
+                    "requested_quantity": 1,
+                    "allocated_quantity": 1
+                  }
+                ]
+              }
+            ],
+            "errors": null,
+            "applied_rules": [
+              {
+                "rule_name": "Sort Priority",
+                "priority": 2
+              }
+            ]
+          },
+          "orderRoutingInfo": [
+            {
+              "sku": "GS6820-2XL",
+              "location_id": "manual"
+            },
+            {
+              "sku": "GS6676",
+              "location_id": "manual"
+            },
+            {
+              "sku": "GS5656",
+              "location_id": "manual"
+            },
+            {
+              "sku": "GS5342-2XL",
+              "location_id": "manual"
+            },
+            {
+              "sku": "GS6630-2XL",
+              "location_id": "manual"
+            }
+          ],
+          "premiumShippingResponseInfo": null,
+          "prePurchaseShippingInfos": null,
+          "shippingDeliveryDate": "Mon, 25 Nov 2024",
+          "hideResponse": false,
+          "code": null
+        }
+      ],
+      "pickFromStoreResponse": null
+    }
+  },
+  {
+    "_index": "gruntstyle.myshopify.com-derrh-2024.11",
+    "_type": "fenix",
+    "_id": "22f93a52-1e35-4b91-8647-6d605190fb79",
+    "_score": 1,
+    "_source": {
+      "id": "22f93a52-1e35-4b91-8647-6d605190fb79",
+      "tenantId": "01976e2d21f545fa89f3f5cff1cb73b6",
+      "sessionTrackId": "MTczMTg1ODY0MzgwMy13d3cuZ3J1bnRzdHlsZS5jb20tMjQ1MjE=",
+      "internalSessionId": "9dce4194-b022-4e34-a45a-05dfe662515d",
+      "createdDateTime": 1731880381871,
+      "request": {
+        "cartId": null,
+        "orderId": "no-token",
+        "tenantId": "01976e2d21f545fa89f3f5cff1cb73b6",
+        "pageType": "PDP",
+        "monetaryValue": 20.99,
+        "buyerZipCode": "17057",
+        "platformType": null,
+        "customerType": null,
+        "smartShipping": false,
+        "sessionTrackId": "MTczMTg1ODY0MzgwMy13d3cuZ3J1bnRzdHlsZS5jb20tMjQ1MjE=",
+        "responseFormat": "json",
+        "skus": [
+          {
+            "sku": "GS7285-M",
+            "quantity": 1,
+            "leadTime": 0,
+            "weight": {
+              "value": 0.37478584,
+              "units": "LB",
+              "weightInLBS": 0.374785840511322
+            },
+            "threshold": 0,
+            "category": null,
+            "nonShip": false,
+            "productId": "7445828960307",
+            "variantId": "42733353041971",
+            "productName": "We Are United T-Shirt - Black",
+            "itemType": "REGULAR",
+            "dimensions": {
+              "length": 8,
+              "width": 6,
+              "height": 5,
+              "girth": 3,
+              "thickness": 0,
+              "weightLimit": null,
+              "units": "IN"
+            },
+            "digitalProduct": false,
+            "skuInventories": [],
+            "customerType": "REGULAR"
+          }
+        ],
+        "shopifyRequest": false,
+        "merchantInfo": null,
+        "customerTags": null,
+        "shippingInfo": null,
+        "checkoutInfo": null,
+        "buyerAddress": {
+          "address1": null,
+          "address2": null,
+          "city": null,
+          "country": "US",
+          "state": "PA",
+          "zipcode": "17057",
+          "name": null,
+          "details": null,
+          "residential": null
+        },
+        "residentialAddress": false,
+        "splitTestInfo": {
+          "testId": "65b76914-4094-4577-aead-499814109f7d",
+          "testName": "Incremental Analysis - Test 1",
+          "variantId": "15f80e26-128c-4c25-93a5-0a61232dbf37",
+          "variantName": "Show EDD"
+        },
+        "additionalProcessing": false,
+        "carbonNeutralShipping": false,
+        "serviceInfos": null,
+        "exceptionalTypes": null,
+        "internalSessionUUID": "9dce4194-b022-4e34-a45a-05dfe662515d",
+        "originalSkus": null
+      },
+      "orderId": "no-token",
+      "trackingId": null,
+      "lineItemInfo": "GS7285-M(1)",
+      "buyerAddressInfo": "17057|PA|US",
+      "triggeredDateTime": "2024-11-17T09:53:01.871-06:00",
+      "responses": [
+        {
+          "webId": "GS7285-M",
+          "hours": "13",
+          "minutes": "6",
+          "response": "Estimated Delivery by <span class=fenix-resp-span-date>Fri, Nov 22</span>, with <span class=fenix-resp-span-shippingname>Rush Shipping </span>",
+          "transitTime": 0,
+          "calendarTime": 0,
+          "shippingCost": null,
+          "buyerZipCode": "17057",
+          "deliveryZone": "DEFAULT",
+          "shippingDateTime": "19 Nov 2024, 17:00",
+          "internalRequestId": null,
+          "shippingMethodDesc": "Rush Shipping",
+          "internationalOrder": false,
+          "splitTestInfo": {
+            "testId": "65b76914-4094-4577-aead-499814109f7d",
+            "testName": "Incremental Analysis - Test 1",
+            "variantId": "15f80e26-128c-4c25-93a5-0a61232dbf37",
+            "variantName": "Show EDD"
+          },
+          "formattedDeliveryDate": "Fri, Nov 22",
+          "guaranteedDeliveryDate": "Fri, 22 Nov 2024",
+          "errorMessage": null,
+          "shippingOptionMappingId": null,
+          "packages": [
+            {
+              "carrier": "UPS",
+              "carrierZone": "4",
+              "wrapperType": "DEFAULT",
+              "shipperLocId": "manual",
+              "deliveryDate": "Fri, Nov 22",
+              "shippingDate": "19 Nov 2024, 17:00",
+              "shipperZipCode": "60188",
+              "shippingMethod": "13",
+              "actualMethodDesc": "UPS Next Day Air Saver",
+              "externalShippingMethod": null,
+              "offsetInfo": null,
+              "shipmentContents": [
+                {
+                  "skuId": "GS7285-M",
+                  "quantity": 1
+                }
+              ]
+            }
+          ],
+          "premiumShippingResponse": false,
+          "shipCostBreakUp": null,
+          "deliveryTimeInfo": {
+            "shippingTime": 1,
+            "carrierTransitTime": 3,
+            "totalTransitTime": 4
+          },
+          "allocationResponse": null,
+          "orderRoutingInfo": null,
+          "premiumShippingResponseInfo": null,
+          "prePurchaseShippingInfos": null,
+          "shippingDeliveryDate": "Fri, 22 Nov 2024",
+          "hideResponse": false,
+          "code": null
+        },
+        {
+          "webId": "GS7285-M",
+          "hours": "13",
+          "minutes": "6",
+          "response": "Estimated Delivery by <span class=fenix-resp-span-date>Sat, Nov 23</span>, with <span class=fenix-resp-span-shippingname>Standard Shipping </span>",
+          "transitTime": 0,
+          "calendarTime": 0,
+          "shippingCost": null,
+          "buyerZipCode": "17057",
+          "deliveryZone": "DEFAULT",
+          "shippingDateTime": "19 Nov 2024, 17:00",
+          "internalRequestId": null,
+          "shippingMethodDesc": "Standard Shipping",
+          "internationalOrder": false,
+          "splitTestInfo": {
+            "testId": "65b76914-4094-4577-aead-499814109f7d",
+            "testName": "Incremental Analysis - Test 1",
+            "variantId": "15f80e26-128c-4c25-93a5-0a61232dbf37",
+            "variantName": "Show EDD"
+          },
+          "formattedDeliveryDate": "Sat, Nov 23",
+          "guaranteedDeliveryDate": "Sat, 23 Nov 2024",
+          "errorMessage": null,
+          "shippingOptionMappingId": null,
+          "packages": [
+            {
+              "carrier": "NEWGISTICS",
+              "carrierZone": "4",
+              "wrapperType": "DEFAULT",
+              "shipperLocId": "manual",
+              "deliveryDate": "Sat, Nov 23",
+              "shippingDate": "19 Nov 2024, 17:00",
+              "shipperZipCode": "60188",
+              "shippingMethod": "PARCEL_SELECT",
+              "actualMethodDesc": "Parcel Select",
+              "externalShippingMethod": null,
+              "offsetInfo": null,
+              "shipmentContents": [
+                {
+                  "skuId": "GS7285-M",
+                  "quantity": 1
+                }
+              ]
+            }
+          ],
+          "premiumShippingResponse": false,
+          "shipCostBreakUp": null,
+          "deliveryTimeInfo": {
+            "shippingTime": 1,
+            "carrierTransitTime": 4,
+            "totalTransitTime": 5
+          },
+          "allocationResponse": null,
+          "orderRoutingInfo": null,
+          "premiumShippingResponseInfo": null,
+          "prePurchaseShippingInfos": null,
+          "shippingDeliveryDate": "Sat, 23 Nov 2024",
+          "hideResponse": false,
+          "code": null
+        },
+        {
+          "webId": "GS7285-M",
+          "hours": "13",
+          "minutes": "6",
+          "response": "Estimated Delivery by <span class=fenix-resp-span-date>Tue, Nov 26</span>, with <span class=fenix-resp-span-shippingname>Expedited Shipping </span>",
+          "transitTime": 0,
+          "calendarTime": 0,
+          "shippingCost": null,
+          "buyerZipCode": "17057",
+          "deliveryZone": "DEFAULT",
+          "shippingDateTime": "19 Nov 2024, 16:00",
+          "internalRequestId": null,
+          "shippingMethodDesc": "Expedited Shipping",
+          "internationalOrder": false,
+          "splitTestInfo": {
+            "testId": "65b76914-4094-4577-aead-499814109f7d",
+            "testName": "Incremental Analysis - Test 1",
+            "variantId": "15f80e26-128c-4c25-93a5-0a61232dbf37",
+            "variantName": "Show EDD"
+          },
+          "formattedDeliveryDate": "Tue, Nov 26",
+          "guaranteedDeliveryDate": "Tue, 26 Nov 2024",
+          "errorMessage": null,
+          "shippingOptionMappingId": null,
+          "packages": [
+            {
+              "carrier": "USPS",
+              "carrierZone": "4",
+              "wrapperType": "DEFAULT",
+              "shipperLocId": "manual",
+              "deliveryDate": "Mon, Nov 25",
+              "shippingDate": "19 Nov 2024, 16:00",
+              "shipperZipCode": "60188",
+              "shippingMethod": "Priority Mail",
+              "actualMethodDesc": "Priority Mail",
+              "externalShippingMethod": null,
+              "offsetInfo": null,
+              "shipmentContents": [
+                {
+                  "skuId": "GS7285-M",
+                  "quantity": 1
+                }
+              ]
+            }
+          ],
+          "premiumShippingResponse": false,
+          "shipCostBreakUp": null,
+          "deliveryTimeInfo": {
+            "shippingTime": 1,
+            "carrierTransitTime": 5,
+            "totalTransitTime": 6
+          },
+          "allocationResponse": null,
+          "orderRoutingInfo": null,
+          "premiumShippingResponseInfo": null,
+          "prePurchaseShippingInfos": null,
+          "shippingDeliveryDate": "Mon, 25 Nov 2024",
+          "hideResponse": false,
+          "code": null
+        }
+      ],
+      "pickFromStoreResponse": null
+    }
+  },
+  {
+    "_index": "gruntstyle.myshopify.com-derrh-2024.11",
+    "_type": "fenix",
+    "_id": "234926f3-b101-45f8-a6c5-72eb2824469f",
+    "_score": 1,
+    "_source": {
+      "id": "234926f3-b101-45f8-a6c5-72eb2824469f",
+      "tenantId": "01976e2d21f545fa89f3f5cff1cb73b6",
+      "sessionTrackId": "MTczMTg1ODc1MjMyNi13d3cuZ3J1bnRzdHlsZS5jb20tNTQ5Mjk=",
+      "internalSessionId": "b714853a-004b-470f-85c0-ad985ec39836",
+      "createdDateTime": 1731880382054,
+      "request": {
+        "cartId": null,
+        "orderId": "no-token",
+        "tenantId": "01976e2d21f545fa89f3f5cff1cb73b6",
+        "pageType": "PDP",
+        "monetaryValue": 20.99,
+        "buyerZipCode": "53168",
+        "platformType": null,
+        "customerType": null,
+        "smartShipping": false,
+        "sessionTrackId": "MTczMTg1ODc1MjMyNi13d3cuZ3J1bnRzdHlsZS5jb20tNTQ5Mjk=",
+        "responseFormat": "json",
+        "skus": [
+          {
+            "sku": "GS6087-S",
+            "quantity": 1,
+            "leadTime": 0,
+            "weight": {
+              "value": 0.30864716,
+              "units": "LB",
+              "weightInLBS": 0.30864715576171875
+            },
+            "threshold": 0,
+            "category": null,
+            "nonShip": false,
+            "productId": "6949593481267",
+            "variantId": "41398030270515",
+            "productName": "Still Standing T-Shirt - Black",
+            "itemType": "REGULAR",
+            "dimensions": {
+              "length": 8,
+              "width": 6,
+              "height": 5,
+              "girth": 3,
+              "thickness": 0,
+              "weightLimit": null,
+              "units": "IN"
+            },
+            "digitalProduct": false,
+            "skuInventories": [],
+            "customerType": "REGULAR"
+          }
+        ],
+        "shopifyRequest": false,
+        "merchantInfo": null,
+        "customerTags": null,
+        "shippingInfo": null,
+        "checkoutInfo": null,
+        "buyerAddress": {
+          "address1": null,
+          "address2": null,
+          "city": null,
+          "country": "US",
+          "state": "WI",
+          "zipcode": "53168",
+          "name": null,
+          "details": null,
+          "residential": null
+        },
+        "residentialAddress": false,
+        "splitTestInfo": {
+          "testId": "65b76914-4094-4577-aead-499814109f7d",
+          "testName": "Incremental Analysis - Test 1",
+          "variantId": "15f80e26-128c-4c25-93a5-0a61232dbf37",
+          "variantName": "Show EDD"
+        },
+        "additionalProcessing": false,
+        "carbonNeutralShipping": false,
+        "serviceInfos": null,
+        "exceptionalTypes": null,
+        "internalSessionUUID": "b714853a-004b-470f-85c0-ad985ec39836",
+        "originalSkus": null
+      },
+      "orderId": "no-token",
+      "trackingId": null,
+      "lineItemInfo": "GS6087-S(1)",
+      "buyerAddressInfo": "53168|WI|US",
+      "triggeredDateTime": "2024-11-17T09:53:02.054-06:00",
+      "responses": [
+        {
+          "webId": "GS6087-S",
+          "hours": "13",
+          "minutes": "6",
+          "response": "Estimated Delivery by <span class=fenix-resp-span-date>Fri, Nov 22</span>, with <span class=fenix-resp-span-shippingname>Standard Shipping </span>",
+          "transitTime": 0,
+          "calendarTime": 0,
+          "shippingCost": null,
+          "buyerZipCode": "53168",
+          "deliveryZone": "DEFAULT",
+          "shippingDateTime": "19 Nov 2024, 17:00",
+          "internalRequestId": null,
+          "shippingMethodDesc": "Standard Shipping",
+          "internationalOrder": false,
+          "splitTestInfo": {
+            "testId": "65b76914-4094-4577-aead-499814109f7d",
+            "testName": "Incremental Analysis - Test 1",
+            "variantId": "15f80e26-128c-4c25-93a5-0a61232dbf37",
+            "variantName": "Show EDD"
+          },
+          "formattedDeliveryDate": "Fri, Nov 22",
+          "guaranteedDeliveryDate": "Fri, 22 Nov 2024",
+          "errorMessage": null,
+          "shippingOptionMappingId": null,
+          "packages": [
+            {
+              "carrier": "NEWGISTICS",
+              "carrierZone": "2",
+              "wrapperType": "DEFAULT",
+              "shipperLocId": "manual",
+              "deliveryDate": "Fri, Nov 22",
+              "shippingDate": "19 Nov 2024, 17:00",
+              "shipperZipCode": "60188",
+              "shippingMethod": "PARCEL_SELECT",
+              "actualMethodDesc": "Parcel Select",
+              "externalShippingMethod": null,
+              "offsetInfo": null,
+              "shipmentContents": [
+                {
+                  "skuId": "GS6087-S",
+                  "quantity": 1
+                }
+              ]
+            }
+          ],
+          "premiumShippingResponse": false,
+          "shipCostBreakUp": null,
+          "deliveryTimeInfo": {
+            "shippingTime": 1,
+            "carrierTransitTime": 3,
+            "totalTransitTime": 4
+          },
+          "allocationResponse": null,
+          "orderRoutingInfo": null,
+          "premiumShippingResponseInfo": null,
+          "prePurchaseShippingInfos": null,
+          "shippingDeliveryDate": "Fri, 22 Nov 2024",
+          "hideResponse": false,
+          "code": null
+        },
+        {
+          "webId": "GS6087-S",
+          "hours": "13",
+          "minutes": "6",
+          "response": "Estimated Delivery by <span class=fenix-resp-span-date>Fri, Nov 22</span>, with <span class=fenix-resp-span-shippingname>Rush Shipping </span>",
+          "transitTime": 0,
+          "calendarTime": 0,
+          "shippingCost": null,
+          "buyerZipCode": "53168",
+          "deliveryZone": "DEFAULT",
+          "shippingDateTime": "19 Nov 2024, 17:00",
+          "internalRequestId": null,
+          "shippingMethodDesc": "Rush Shipping",
+          "internationalOrder": false,
+          "splitTestInfo": {
+            "testId": "65b76914-4094-4577-aead-499814109f7d",
+            "testName": "Incremental Analysis - Test 1",
+            "variantId": "15f80e26-128c-4c25-93a5-0a61232dbf37",
+            "variantName": "Show EDD"
+          },
+          "formattedDeliveryDate": "Fri, Nov 22",
+          "guaranteedDeliveryDate": "Fri, 22 Nov 2024",
+          "errorMessage": null,
+          "shippingOptionMappingId": null,
+          "packages": [
+            {
+              "carrier": "UPS",
+              "carrierZone": "2",
+              "wrapperType": "DEFAULT",
+              "shipperLocId": "manual",
+              "deliveryDate": "Fri, Nov 22",
+              "shippingDate": "19 Nov 2024, 17:00",
+              "shipperZipCode": "60188",
+              "shippingMethod": "13",
+              "actualMethodDesc": "UPS Next Day Air Saver",
+              "externalShippingMethod": null,
+              "offsetInfo": null,
+              "shipmentContents": [
+                {
+                  "skuId": "GS6087-S",
+                  "quantity": 1
+                }
+              ]
+            }
+          ],
+          "premiumShippingResponse": false,
+          "shipCostBreakUp": null,
+          "deliveryTimeInfo": {
+            "shippingTime": 1,
+            "carrierTransitTime": 3,
+            "totalTransitTime": 4
+          },
+          "allocationResponse": null,
+          "orderRoutingInfo": null,
+          "premiumShippingResponseInfo": null,
+          "prePurchaseShippingInfos": null,
+          "shippingDeliveryDate": "Fri, 22 Nov 2024",
+          "hideResponse": false,
+          "code": null
+        },
+        {
+          "webId": "GS6087-S",
+          "hours": "13",
+          "minutes": "6",
+          "response": "Estimated Delivery by <span class=fenix-resp-span-date>Mon, Nov 25</span>, with <span class=fenix-resp-span-shippingname>Expedited Shipping </span>",
+          "transitTime": 0,
+          "calendarTime": 0,
+          "shippingCost": null,
+          "buyerZipCode": "53168",
+          "deliveryZone": "DEFAULT",
+          "shippingDateTime": "19 Nov 2024, 16:00",
+          "internalRequestId": null,
+          "shippingMethodDesc": "Expedited Shipping",
+          "internationalOrder": false,
+          "splitTestInfo": {
+            "testId": "65b76914-4094-4577-aead-499814109f7d",
+            "testName": "Incremental Analysis - Test 1",
+            "variantId": "15f80e26-128c-4c25-93a5-0a61232dbf37",
+            "variantName": "Show EDD"
+          },
+          "formattedDeliveryDate": "Mon, Nov 25",
+          "guaranteedDeliveryDate": "Mon, 25 Nov 2024",
+          "errorMessage": null,
+          "shippingOptionMappingId": null,
+          "packages": [
+            {
+              "carrier": "USPS",
+              "carrierZone": "2",
+              "wrapperType": "DEFAULT",
+              "shipperLocId": "manual",
+              "deliveryDate": "Sat, Nov 23",
+              "shippingDate": "19 Nov 2024, 16:00",
+              "shipperZipCode": "60188",
+              "shippingMethod": "Priority Mail",
+              "actualMethodDesc": "Priority Mail",
+              "externalShippingMethod": null,
+              "offsetInfo": null,
+              "shipmentContents": [
+                {
+                  "skuId": "GS6087-S",
+                  "quantity": 1
+                }
+              ]
+            }
+          ],
+          "premiumShippingResponse": false,
+          "shipCostBreakUp": null,
+          "deliveryTimeInfo": {
+            "shippingTime": 1,
+            "carrierTransitTime": 4,
+            "totalTransitTime": 5
+          },
+          "allocationResponse": null,
+          "orderRoutingInfo": null,
+          "premiumShippingResponseInfo": null,
+          "prePurchaseShippingInfos": null,
+          "shippingDeliveryDate": "Sat, 23 Nov 2024",
+          "hideResponse": false,
+          "code": null
+        }
+      ],
+      "pickFromStoreResponse": null
+    }
+  },
+  {
+    "_index": "gruntstyle.myshopify.com-derrh-2024.11",
+    "_type": "fenix",
+    "_id": "07fb83f8-4309-4d2f-b3c2-22d759a5ce35",
+    "_score": 1,
+    "_source": {
+      "id": "07fb83f8-4309-4d2f-b3c2-22d759a5ce35",
+      "tenantId": "01976e2d21f545fa89f3f5cff1cb73b6",
+      "sessionTrackId": "MTczMTg1ODczMTEzOC13d3cuZ3J1bnRzdHlsZS5jb20tMzU0NDY=",
+      "internalSessionId": "84b9545b-5df3-48ee-adc0-3a6b937d9080",
+      "createdDateTime": 1731880382156,
+      "request": {
+        "cartId": null,
+        "orderId": "no-token",
+        "tenantId": "01976e2d21f545fa89f3f5cff1cb73b6",
+        "pageType": "PDP",
+        "monetaryValue": 20.99,
+        "buyerZipCode": "17201",
+        "platformType": null,
+        "customerType": null,
+        "smartShipping": false,
+        "sessionTrackId": "MTczMTg1ODczMTEzOC13d3cuZ3J1bnRzdHlsZS5jb20tMzU0NDY=",
+        "responseFormat": "json",
+        "skus": [
+          {
+            "sku": "GS6629-S",
+            "quantity": 1,
+            "leadTime": 0,
+            "weight": {
+              "value": 0.30864716,
+              "units": "LB",
+              "weightInLBS": 0.30864715576171875
+            },
+            "threshold": 0,
+            "category": null,
+            "nonShip": false,
+            "productId": "7433664757811",
+            "variantId": "42695911735347",
+            "productName": "Operator Grinch T-Shirt - Black",
+            "itemType": "REGULAR",
+            "dimensions": {
+              "length": 8,
+              "width": 6,
+              "height": 5,
+              "girth": 3,
+              "thickness": 0,
+              "weightLimit": null,
+              "units": "IN"
+            },
+            "digitalProduct": false,
+            "skuInventories": [],
+            "customerType": "REGULAR"
+          }
+        ],
+        "shopifyRequest": false,
+        "merchantInfo": null,
+        "customerTags": null,
+        "shippingInfo": null,
+        "checkoutInfo": null,
+        "buyerAddress": {
+          "address1": null,
+          "address2": null,
+          "city": null,
+          "country": "US",
+          "state": "PA",
+          "zipcode": "17201",
+          "name": null,
+          "details": null,
+          "residential": null
+        },
+        "residentialAddress": false,
+        "splitTestInfo": {
+          "testId": "65b76914-4094-4577-aead-499814109f7d",
+          "testName": "Incremental Analysis - Test 1",
+          "variantId": "15f80e26-128c-4c25-93a5-0a61232dbf37",
+          "variantName": "Show EDD"
+        },
+        "additionalProcessing": false,
+        "carbonNeutralShipping": false,
+        "serviceInfos": null,
+        "exceptionalTypes": null,
+        "internalSessionUUID": "84b9545b-5df3-48ee-adc0-3a6b937d9080",
+        "originalSkus": null
+      },
+      "orderId": "no-token",
+      "trackingId": null,
+      "lineItemInfo": "GS6629-S(1)",
+      "buyerAddressInfo": "17201|PA|US",
+      "triggeredDateTime": "2024-11-17T09:53:02.156-06:00",
+      "responses": [
+        {
+          "webId": "GS6629-S",
+          "hours": "13",
+          "minutes": "6",
+          "response": "Estimated Delivery by <span class=fenix-resp-span-date>Sat, Nov 23</span>, with <span class=fenix-resp-span-shippingname>Standard Shipping </span>",
+          "transitTime": 0,
+          "calendarTime": 0,
+          "shippingCost": null,
+          "buyerZipCode": "17201",
+          "deliveryZone": "DEFAULT",
+          "shippingDateTime": "19 Nov 2024, 17:00",
+          "internalRequestId": null,
+          "shippingMethodDesc": "Standard Shipping",
+          "internationalOrder": false,
+          "splitTestInfo": {
+            "testId": "65b76914-4094-4577-aead-499814109f7d",
+            "testName": "Incremental Analysis - Test 1",
+            "variantId": "15f80e26-128c-4c25-93a5-0a61232dbf37",
+            "variantName": "Show EDD"
+          },
+          "formattedDeliveryDate": "Sat, Nov 23",
+          "guaranteedDeliveryDate": "Sat, 23 Nov 2024",
+          "errorMessage": null,
+          "shippingOptionMappingId": null,
+          "packages": [
+            {
+              "carrier": "NEWGISTICS",
+              "carrierZone": "4",
+              "wrapperType": "DEFAULT",
+              "shipperLocId": "manual",
+              "deliveryDate": "Sat, Nov 23",
+              "shippingDate": "19 Nov 2024, 17:00",
+              "shipperZipCode": "60188",
+              "shippingMethod": "PARCEL_SELECT",
+              "actualMethodDesc": "Parcel Select",
+              "externalShippingMethod": null,
+              "offsetInfo": null,
+              "shipmentContents": [
+                {
+                  "skuId": "GS6629-S",
+                  "quantity": 1
+                }
+              ]
+            }
+          ],
+          "premiumShippingResponse": false,
+          "shipCostBreakUp": null,
+          "deliveryTimeInfo": {
+            "shippingTime": 1,
+            "carrierTransitTime": 4,
+            "totalTransitTime": 5
+          },
+          "allocationResponse": null,
+          "orderRoutingInfo": null,
+          "premiumShippingResponseInfo": null,
+          "prePurchaseShippingInfos": null,
+          "shippingDeliveryDate": "Sat, 23 Nov 2024",
+          "hideResponse": false,
+          "code": null
+        },
+        {
+          "webId": "GS6629-S",
+          "hours": "13",
+          "minutes": "6",
+          "response": "Estimated Delivery by <span class=fenix-resp-span-date>Tue, Nov 26</span>, with <span class=fenix-resp-span-shippingname>Expedited Shipping </span>",
+          "transitTime": 0,
+          "calendarTime": 0,
+          "shippingCost": null,
+          "buyerZipCode": "17201",
+          "deliveryZone": "DEFAULT",
+          "shippingDateTime": "19 Nov 2024, 16:00",
+          "internalRequestId": null,
+          "shippingMethodDesc": "Expedited Shipping",
+          "internationalOrder": false,
+          "splitTestInfo": {
+            "testId": "65b76914-4094-4577-aead-499814109f7d",
+            "testName": "Incremental Analysis - Test 1",
+            "variantId": "15f80e26-128c-4c25-93a5-0a61232dbf37",
+            "variantName": "Show EDD"
+          },
+          "formattedDeliveryDate": "Tue, Nov 26",
+          "guaranteedDeliveryDate": "Tue, 26 Nov 2024",
+          "errorMessage": null,
+          "shippingOptionMappingId": null,
+          "packages": [
+            {
+              "carrier": "USPS",
+              "carrierZone": "4",
+              "wrapperType": "DEFAULT",
+              "shipperLocId": "manual",
+              "deliveryDate": "Mon, Nov 25",
+              "shippingDate": "19 Nov 2024, 16:00",
+              "shipperZipCode": "60188",
+              "shippingMethod": "Priority Mail",
+              "actualMethodDesc": "Priority Mail",
+              "externalShippingMethod": null,
+              "offsetInfo": null,
+              "shipmentContents": [
+                {
+                  "skuId": "GS6629-S",
+                  "quantity": 1
+                }
+              ]
+            }
+          ],
+          "premiumShippingResponse": false,
+          "shipCostBreakUp": null,
+          "deliveryTimeInfo": {
+            "shippingTime": 1,
+            "carrierTransitTime": 5,
+            "totalTransitTime": 6
+          },
+          "allocationResponse": null,
+          "orderRoutingInfo": null,
+          "premiumShippingResponseInfo": null,
+          "prePurchaseShippingInfos": null,
+          "shippingDeliveryDate": "Mon, 25 Nov 2024",
+          "hideResponse": false,
+          "code": null
+        }
+      ],
+      "pickFromStoreResponse": null
+    }
+  },
+  {
+    "_index": "gruntstyle.myshopify.com-derrh-2024.11",
+    "_type": "fenix",
+    "_id": "47a50c84-7e38-4870-af27-592967badd54",
+    "_score": 1,
+    "_source": {
+      "id": "47a50c84-7e38-4870-af27-592967badd54",
+      "tenantId": "01976e2d21f545fa89f3f5cff1cb73b6",
+      "sessionTrackId": "MTczMTg1NzkzMzk3OC13d3cuZ3J1bnRzdHlsZS5jb20tNzAyNTA=",
+      "internalSessionId": "b834c347-f4fd-4fb3-a9ed-5dddf0f4309c",
+      "createdDateTime": 1731880382165,
+      "request": {
+        "cartId": null,
+        "orderId": "no-token",
+        "tenantId": "01976e2d21f545fa89f3f5cff1cb73b6",
+        "pageType": "PDP",
+        "monetaryValue": 14.99,
+        "buyerZipCode": "96130",
+        "platformType": null,
+        "customerType": null,
+        "smartShipping": false,
+        "sessionTrackId": "MTczMTg1NzkzMzk3OC13d3cuZ3J1bnRzdHlsZS5jb20tNzAyNTA=",
+        "responseFormat": "json",
+        "skus": [
+          {
+            "sku": "GS5769-S",
+            "quantity": 1,
+            "leadTime": 0,
+            "weight": {
+              "value": 0.30864716,
+              "units": "LB",
+              "weightInLBS": 0.30864715576171875
+            },
+            "threshold": 0,
+            "category": null,
+            "nonShip": false,
+            "productId": "6923593187379",
+            "variantId": "41310888558643",
+            "productName": "Red Line Crest T-Shirt - Midnight Navy",
+            "itemType": "REGULAR",
+            "dimensions": {
+              "length": 8,
+              "width": 6,
+              "height": 5,
+              "girth": 3,
+              "thickness": 0,
+              "weightLimit": null,
+              "units": "IN"
+            },
+            "digitalProduct": false,
+            "skuInventories": [],
+            "customerType": "REGULAR"
+          }
+        ],
+        "shopifyRequest": false,
+        "merchantInfo": null,
+        "customerTags": null,
+        "shippingInfo": null,
+        "checkoutInfo": null,
+        "buyerAddress": {
+          "address1": null,
+          "address2": null,
+          "city": null,
+          "country": "US",
+          "state": "CA",
+          "zipcode": "96130",
+          "name": null,
+          "details": null,
+          "residential": null
+        },
+        "residentialAddress": false,
+        "splitTestInfo": {
+          "testId": "65b76914-4094-4577-aead-499814109f7d",
+          "testName": "Incremental Analysis - Test 1",
+          "variantId": "92fcc6f3-fabc-44a1-be48-8f755bd50bb0",
+          "variantName": "Hide EDD"
+        },
+        "additionalProcessing": false,
+        "carbonNeutralShipping": false,
+        "serviceInfos": null,
+        "exceptionalTypes": null,
+        "internalSessionUUID": "b834c347-f4fd-4fb3-a9ed-5dddf0f4309c",
+        "originalSkus": null
+      },
+      "orderId": "no-token",
+      "trackingId": null,
+      "lineItemInfo": "GS5769-S(1)",
+      "buyerAddressInfo": "96130|CA|US",
+      "triggeredDateTime": "2024-11-17T09:53:02.165-06:00",
+      "responses": [
+        {
+          "webId": "GS5769-S",
+          "hours": "13",
+          "minutes": "6",
+          "response": "Estimated Delivery by <span class=fenix-resp-span-date>Mon, Nov 25</span>, with <span class=fenix-resp-span-shippingname>Standard Shipping </span>",
+          "transitTime": 0,
+          "calendarTime": 0,
+          "shippingCost": null,
+          "buyerZipCode": "96130",
+          "deliveryZone": "DEFAULT",
+          "shippingDateTime": "19 Nov 2024, 17:00",
+          "internalRequestId": null,
+          "shippingMethodDesc": "Standard Shipping",
+          "internationalOrder": false,
+          "splitTestInfo": {
+            "testId": "65b76914-4094-4577-aead-499814109f7d",
+            "testName": "Incremental Analysis - Test 1",
+            "variantId": "92fcc6f3-fabc-44a1-be48-8f755bd50bb0",
+            "variantName": "Hide EDD"
+          },
+          "formattedDeliveryDate": "Mon, Nov 25",
+          "guaranteedDeliveryDate": "Mon, 25 Nov 2024",
+          "errorMessage": null,
+          "shippingOptionMappingId": null,
+          "packages": [
+            {
+              "carrier": "NEWGISTICS",
+              "carrierZone": "7",
+              "wrapperType": "DEFAULT",
+              "shipperLocId": "manual",
+              "deliveryDate": "Mon, Nov 25",
+              "shippingDate": "19 Nov 2024, 17:00",
+              "shipperZipCode": "60188",
+              "shippingMethod": "PARCEL_SELECT",
+              "actualMethodDesc": "Parcel Select",
+              "externalShippingMethod": null,
+              "offsetInfo": null,
+              "shipmentContents": [
+                {
+                  "skuId": "GS5769-S",
+                  "quantity": 1
+                }
+              ]
+            }
+          ],
+          "premiumShippingResponse": false,
+          "shipCostBreakUp": null,
+          "deliveryTimeInfo": {
+            "shippingTime": 1,
+            "carrierTransitTime": 5,
+            "totalTransitTime": 6
+          },
+          "allocationResponse": null,
+          "orderRoutingInfo": null,
+          "premiumShippingResponseInfo": null,
+          "prePurchaseShippingInfos": null,
+          "shippingDeliveryDate": "Mon, 25 Nov 2024",
+          "hideResponse": true,
+          "code": null
+        },
+        {
+          "webId": "GS5769-S",
+          "hours": "13",
+          "minutes": "6",
+          "response": "Estimated Delivery by <span class=fenix-resp-span-date>Mon, Nov 25</span>, with <span class=fenix-resp-span-shippingname>Expedited Shipping </span>",
+          "transitTime": 0,
+          "calendarTime": 0,
+          "shippingCost": null,
+          "buyerZipCode": "96130",
+          "deliveryZone": "DEFAULT",
+          "shippingDateTime": "19 Nov 2024, 16:00",
+          "internalRequestId": null,
+          "shippingMethodDesc": "Expedited Shipping",
+          "internationalOrder": false,
+          "splitTestInfo": {
+            "testId": "65b76914-4094-4577-aead-499814109f7d",
+            "testName": "Incremental Analysis - Test 1",
+            "variantId": "92fcc6f3-fabc-44a1-be48-8f755bd50bb0",
+            "variantName": "Hide EDD"
+          },
+          "formattedDeliveryDate": "Mon, Nov 25",
+          "guaranteedDeliveryDate": "Mon, 25 Nov 2024",
+          "errorMessage": null,
+          "shippingOptionMappingId": null,
+          "packages": [
+            {
+              "carrier": "USPS",
+              "carrierZone": "7",
+              "wrapperType": "DEFAULT",
+              "shipperLocId": "manual",
+              "deliveryDate": "Sat, Nov 23",
+              "shippingDate": "19 Nov 2024, 16:00",
+              "shipperZipCode": "60188",
+              "shippingMethod": "Priority Mail",
+              "actualMethodDesc": "Priority Mail",
+              "externalShippingMethod": null,
+              "offsetInfo": null,
+              "shipmentContents": [
+                {
+                  "skuId": "GS5769-S",
+                  "quantity": 1
+                }
+              ]
+            }
+          ],
+          "premiumShippingResponse": false,
+          "shipCostBreakUp": null,
+          "deliveryTimeInfo": {
+            "shippingTime": 1,
+            "carrierTransitTime": 4,
+            "totalTransitTime": 5
+          },
+          "allocationResponse": null,
+          "orderRoutingInfo": null,
+          "premiumShippingResponseInfo": null,
+          "prePurchaseShippingInfos": null,
+          "shippingDeliveryDate": "Sat, 23 Nov 2024",
+          "hideResponse": true,
+          "code": null
+        }
+      ],
+      "pickFromStoreResponse": null
+    }
+  },
+  {
+    "_index": "gruntstyle.myshopify.com-derrh-2024.11",
+    "_type": "fenix",
+    "_id": "5892ec78-03e2-41b5-bbe7-28341cfc4ad6",
+    "_score": 1,
+    "_source": {
+      "id": "5892ec78-03e2-41b5-bbe7-28341cfc4ad6",
+      "tenantId": "01976e2d21f545fa89f3f5cff1cb73b6",
+      "sessionTrackId": "MTczMTg1ODgzMjY0Mi13d3cuZ3J1bnRzdHlsZS5jb20tODIwNjY=",
+      "internalSessionId": "9c0d8f2b-3009-4e61-8f20-ffb39eb19ab6",
+      "createdDateTime": 1731880435035,
+      "request": {
+        "cartId": null,
+        "orderId": "no-token",
+        "tenantId": "01976e2d21f545fa89f3f5cff1cb73b6",
+        "pageType": "PDP",
+        "monetaryValue": 35.99,
+        "buyerZipCode": "84078",
+        "platformType": null,
+        "customerType": null,
+        "smartShipping": false,
+        "sessionTrackId": "MTczMTg1ODgzMjY0Mi13d3cuZ3J1bnRzdHlsZS5jb20tODIwNjY=",
+        "responseFormat": "json",
+        "skus": [
+          {
+            "sku": "GS6495-L",
+            "quantity": 1,
+            "leadTime": 0,
+            "weight": {
+              "value": 1.5432358,
+              "units": "LB",
+              "weightInLBS": 1.5432357788085938
+            },
+            "threshold": 0,
+            "category": null,
+            "nonShip": false,
+            "productId": "7028640350259",
+            "variantId": "41645588545587",
+            "productName": "Full Metal Mouse Hoodie - Black",
+            "itemType": "REGULAR",
+            "dimensions": {
+              "length": 8,
+              "width": 6,
+              "height": 5,
+              "girth": 3,
+              "thickness": 0,
+              "weightLimit": null,
+              "units": "IN"
+            },
+            "digitalProduct": false,
+            "skuInventories": [],
+            "customerType": "REGULAR"
+          }
+        ],
+        "shopifyRequest": false,
+        "merchantInfo": null,
+        "customerTags": null,
+        "shippingInfo": null,
+        "checkoutInfo": null,
+        "buyerAddress": {
+          "address1": null,
+          "address2": null,
+          "city": null,
+          "country": "US",
+          "state": "UT",
+          "zipcode": "84078",
+          "name": null,
+          "details": null,
+          "residential": null
+        },
+        "residentialAddress": false,
+        "splitTestInfo": {
+          "testId": "65b76914-4094-4577-aead-499814109f7d",
+          "testName": "Incremental Analysis - Test 1",
+          "variantId": "15f80e26-128c-4c25-93a5-0a61232dbf37",
+          "variantName": "Show EDD"
+        },
+        "additionalProcessing": false,
+        "carbonNeutralShipping": false,
+        "serviceInfos": null,
+        "exceptionalTypes": null,
+        "internalSessionUUID": "9c0d8f2b-3009-4e61-8f20-ffb39eb19ab6",
+        "originalSkus": null
+      },
+      "orderId": "no-token",
+      "trackingId": null,
+      "lineItemInfo": "GS6495-L(1)",
+      "buyerAddressInfo": "84078|UT|US",
+      "triggeredDateTime": "2024-11-17T09:53:55.035-06:00",
+      "responses": [
+        {
+          "webId": "GS6495-L",
+          "hours": "13",
+          "minutes": "6",
+          "response": "Estimated Delivery by <span class=fenix-resp-span-date>Fri, Nov 22</span>, with <span class=fenix-resp-span-shippingname>Rush Shipping </span>",
+          "transitTime": 0,
+          "calendarTime": 0,
+          "shippingCost": null,
+          "buyerZipCode": "84078",
+          "deliveryZone": "DEFAULT",
+          "shippingDateTime": "19 Nov 2024, 17:00",
+          "internalRequestId": null,
+          "shippingMethodDesc": "Rush Shipping",
+          "internationalOrder": false,
+          "splitTestInfo": {
+            "testId": "65b76914-4094-4577-aead-499814109f7d",
+            "testName": "Incremental Analysis - Test 1",
+            "variantId": "15f80e26-128c-4c25-93a5-0a61232dbf37",
+            "variantName": "Show EDD"
+          },
+          "formattedDeliveryDate": "Fri, Nov 22",
+          "guaranteedDeliveryDate": "Fri, 22 Nov 2024",
+          "errorMessage": null,
+          "shippingOptionMappingId": null,
+          "packages": [
+            {
+              "carrier": "UPS",
+              "carrierZone": "6",
+              "wrapperType": "DEFAULT",
+              "shipperLocId": "manual",
+              "deliveryDate": "Fri, Nov 22",
+              "shippingDate": "19 Nov 2024, 17:00",
+              "shipperZipCode": "60188",
+              "shippingMethod": "13",
+              "actualMethodDesc": "UPS Next Day Air Saver",
+              "externalShippingMethod": null,
+              "offsetInfo": null,
+              "shipmentContents": [
+                {
+                  "skuId": "GS6495-L",
+                  "quantity": 1
+                }
+              ]
+            }
+          ],
+          "premiumShippingResponse": false,
+          "shipCostBreakUp": null,
+          "deliveryTimeInfo": {
+            "shippingTime": 1,
+            "carrierTransitTime": 3,
+            "totalTransitTime": 4
+          },
+          "allocationResponse": null,
+          "orderRoutingInfo": null,
+          "premiumShippingResponseInfo": null,
+          "prePurchaseShippingInfos": null,
+          "shippingDeliveryDate": "Fri, 22 Nov 2024",
+          "hideResponse": false,
+          "code": null
+        },
+        {
+          "webId": "GS6495-L",
+          "hours": "13",
+          "minutes": "6",
+          "response": "Estimated Delivery by <span class=fenix-resp-span-date>Mon, Nov 25</span>, with <span class=fenix-resp-span-shippingname>Standard Shipping </span>",
+          "transitTime": 0,
+          "calendarTime": 0,
+          "shippingCost": null,
+          "buyerZipCode": "84078",
+          "deliveryZone": "DEFAULT",
+          "shippingDateTime": "19 Nov 2024, 17:00",
+          "internalRequestId": null,
+          "shippingMethodDesc": "Standard Shipping",
+          "internationalOrder": false,
+          "splitTestInfo": {
+            "testId": "65b76914-4094-4577-aead-499814109f7d",
+            "testName": "Incremental Analysis - Test 1",
+            "variantId": "15f80e26-128c-4c25-93a5-0a61232dbf37",
+            "variantName": "Show EDD"
+          },
+          "formattedDeliveryDate": "Mon, Nov 25",
+          "guaranteedDeliveryDate": "Mon, 25 Nov 2024",
+          "errorMessage": null,
+          "shippingOptionMappingId": null,
+          "packages": [
+            {
+              "carrier": "NEWGISTICS",
+              "carrierZone": "6",
+              "wrapperType": "DEFAULT",
+              "shipperLocId": "manual",
+              "deliveryDate": "Mon, Nov 25",
+              "shippingDate": "19 Nov 2024, 17:00",
+              "shipperZipCode": "60188",
+              "shippingMethod": "PARCEL_SELECT",
+              "actualMethodDesc": "Parcel Select",
+              "externalShippingMethod": null,
+              "offsetInfo": null,
+              "shipmentContents": [
+                {
+                  "skuId": "GS6495-L",
+                  "quantity": 1
+                }
+              ]
+            }
+          ],
+          "premiumShippingResponse": false,
+          "shipCostBreakUp": null,
+          "deliveryTimeInfo": {
+            "shippingTime": 1,
+            "carrierTransitTime": 5,
+            "totalTransitTime": 6
+          },
+          "allocationResponse": null,
+          "orderRoutingInfo": null,
+          "premiumShippingResponseInfo": null,
+          "prePurchaseShippingInfos": null,
+          "shippingDeliveryDate": "Mon, 25 Nov 2024",
+          "hideResponse": false,
+          "code": null
+        },
+        {
+          "webId": "GS6495-L",
+          "hours": "13",
+          "minutes": "6",
+          "response": "Estimated Delivery by <span class=fenix-resp-span-date>Mon, Nov 25</span>, with <span class=fenix-resp-span-shippingname>Expedited Shipping </span>",
+          "transitTime": 0,
+          "calendarTime": 0,
+          "shippingCost": null,
+          "buyerZipCode": "84078",
+          "deliveryZone": "DEFAULT",
+          "shippingDateTime": "19 Nov 2024, 16:00",
+          "internalRequestId": null,
+          "shippingMethodDesc": "Expedited Shipping",
+          "internationalOrder": false,
+          "splitTestInfo": {
+            "testId": "65b76914-4094-4577-aead-499814109f7d",
+            "testName": "Incremental Analysis - Test 1",
+            "variantId": "15f80e26-128c-4c25-93a5-0a61232dbf37",
+            "variantName": "Show EDD"
+          },
+          "formattedDeliveryDate": "Mon, Nov 25",
+          "guaranteedDeliveryDate": "Mon, 25 Nov 2024",
+          "errorMessage": null,
+          "shippingOptionMappingId": null,
+          "packages": [
+            {
+              "carrier": "USPS",
+              "carrierZone": "6",
+              "wrapperType": "DEFAULT",
+              "shipperLocId": "manual",
+              "deliveryDate": "Sat, Nov 23",
+              "shippingDate": "19 Nov 2024, 16:00",
+              "shipperZipCode": "60188",
+              "shippingMethod": "Priority Mail",
+              "actualMethodDesc": "Priority Mail",
+              "externalShippingMethod": null,
+              "offsetInfo": null,
+              "shipmentContents": [
+                {
+                  "skuId": "GS6495-L",
+                  "quantity": 1
+                }
+              ]
+            }
+          ],
+          "premiumShippingResponse": false,
+          "shipCostBreakUp": null,
+          "deliveryTimeInfo": {
+            "shippingTime": 1,
+            "carrierTransitTime": 4,
+            "totalTransitTime": 5
+          },
+          "allocationResponse": null,
+          "orderRoutingInfo": null,
+          "premiumShippingResponseInfo": null,
+          "prePurchaseShippingInfos": null,
+          "shippingDeliveryDate": "Sat, 23 Nov 2024",
+          "hideResponse": false,
+          "code": null
+        }
+      ],
+      "pickFromStoreResponse": null
+    }
+  },
+  {
+    "_index": "gruntstyle.myshopify.com-derrh-2024.11",
+    "_type": "fenix",
+    "_id": "aeff30eb-d0b2-4adc-963f-64cfdd99f4af",
+    "_score": 1,
+    "_source": {
+      "id": "aeff30eb-d0b2-4adc-963f-64cfdd99f4af",
+      "tenantId": "01976e2d21f545fa89f3f5cff1cb73b6",
+      "sessionTrackId": "MTczMTg1NzI2NDU0OC13d3cuZ3J1bnRzdHlsZS5jb20tNDE1MjM=",
+      "internalSessionId": "ae1b5f86-d475-4a1b-96c7-297c9f31afe8",
+      "createdDateTime": 1731880435181,
+      "request": {
+        "cartId": null,
+        "orderId": "no-token",
+        "tenantId": "01976e2d21f545fa89f3f5cff1cb73b6",
+        "pageType": "PDP",
+        "monetaryValue": 20.99,
+        "buyerZipCode": "28645",
+        "platformType": null,
+        "customerType": null,
+        "smartShipping": false,
+        "sessionTrackId": "MTczMTg1NzI2NDU0OC13d3cuZ3J1bnRzdHlsZS5jb20tNDE1MjM=",
+        "responseFormat": "json",
+        "skus": [
+          {
+            "sku": "GS6634-S",
+            "quantity": 1,
+            "leadTime": 0,
+            "weight": {
+              "value": 0.30864716,
+              "units": "LB",
+              "weightInLBS": 0.30864715576171875
+            },
+            "threshold": 0,
+            "category": null,
+            "nonShip": false,
+            "productId": "7433668067379",
+            "variantId": "42695920517171",
+            "productName": "This Side of the Nuthouse T-Shirt - Heather Forest Green",
+            "itemType": "REGULAR",
+            "dimensions": {
+              "length": 8,
+              "width": 6,
+              "height": 5,
+              "girth": 3,
+              "thickness": 0,
+              "weightLimit": null,
+              "units": "IN"
+            },
+            "digitalProduct": false,
+            "skuInventories": [],
+            "customerType": "REGULAR"
+          }
+        ],
+        "shopifyRequest": false,
+        "merchantInfo": null,
+        "customerTags": null,
+        "shippingInfo": null,
+        "checkoutInfo": null,
+        "buyerAddress": {
+          "address1": null,
+          "address2": null,
+          "city": null,
+          "country": "US",
+          "state": "NC",
+          "zipcode": "28645",
+          "name": null,
+          "details": null,
+          "residential": null
+        },
+        "residentialAddress": false,
+        "splitTestInfo": {
+          "testId": "65b76914-4094-4577-aead-499814109f7d",
+          "testName": "Incremental Analysis - Test 1",
+          "variantId": "15f80e26-128c-4c25-93a5-0a61232dbf37",
+          "variantName": "Show EDD"
+        },
+        "additionalProcessing": false,
+        "carbonNeutralShipping": false,
+        "serviceInfos": null,
+        "exceptionalTypes": null,
+        "internalSessionUUID": "ae1b5f86-d475-4a1b-96c7-297c9f31afe8",
+        "originalSkus": null
+      },
+      "orderId": "no-token",
+      "trackingId": null,
+      "lineItemInfo": "GS6634-S(1)",
+      "buyerAddressInfo": "28645|NC|US",
+      "triggeredDateTime": "2024-11-17T09:53:55.181-06:00",
+      "responses": [
+        {
+          "webId": "GS6634-S",
+          "hours": "13",
+          "minutes": "6",
+          "response": "Estimated Delivery by <span class=fenix-resp-span-date>Fri, Nov 22</span>, with <span class=fenix-resp-span-shippingname>Rush Shipping </span>",
+          "transitTime": 0,
+          "calendarTime": 0,
+          "shippingCost": null,
+          "buyerZipCode": "28645",
+          "deliveryZone": "DEFAULT",
+          "shippingDateTime": "19 Nov 2024, 17:00",
+          "internalRequestId": null,
+          "shippingMethodDesc": "Rush Shipping",
+          "internationalOrder": false,
+          "splitTestInfo": {
+            "testId": "65b76914-4094-4577-aead-499814109f7d",
+            "testName": "Incremental Analysis - Test 1",
+            "variantId": "15f80e26-128c-4c25-93a5-0a61232dbf37",
+            "variantName": "Show EDD"
+          },
+          "formattedDeliveryDate": "Fri, Nov 22",
+          "guaranteedDeliveryDate": "Fri, 22 Nov 2024",
+          "errorMessage": null,
+          "shippingOptionMappingId": null,
+          "packages": [
+            {
+              "carrier": "UPS",
+              "carrierZone": "4",
+              "wrapperType": "DEFAULT",
+              "shipperLocId": "manual",
+              "deliveryDate": "Fri, Nov 22",
+              "shippingDate": "19 Nov 2024, 17:00",
+              "shipperZipCode": "60188",
+              "shippingMethod": "13",
+              "actualMethodDesc": "UPS Next Day Air Saver",
+              "externalShippingMethod": null,
+              "offsetInfo": null,
+              "shipmentContents": [
+                {
+                  "skuId": "GS6634-S",
+                  "quantity": 1
+                }
+              ]
+            }
+          ],
+          "premiumShippingResponse": false,
+          "shipCostBreakUp": null,
+          "deliveryTimeInfo": {
+            "shippingTime": 1,
+            "carrierTransitTime": 3,
+            "totalTransitTime": 4
+          },
+          "allocationResponse": null,
+          "orderRoutingInfo": null,
+          "premiumShippingResponseInfo": null,
+          "prePurchaseShippingInfos": null,
+          "shippingDeliveryDate": "Fri, 22 Nov 2024",
+          "hideResponse": true,
+          "code": null
+        },
+        {
+          "webId": "GS6634-S",
+          "hours": "13",
+          "minutes": "6",
+          "response": "Estimated Delivery by <span class=fenix-resp-span-date>Sat, Nov 23</span>, with <span class=fenix-resp-span-shippingname>Standard Shipping </span>",
+          "transitTime": 0,
+          "calendarTime": 0,
+          "shippingCost": null,
+          "buyerZipCode": "28645",
+          "deliveryZone": "DEFAULT",
+          "shippingDateTime": "19 Nov 2024, 17:00",
+          "internalRequestId": null,
+          "shippingMethodDesc": "Standard Shipping",
+          "internationalOrder": false,
+          "splitTestInfo": {
+            "testId": "65b76914-4094-4577-aead-499814109f7d",
+            "testName": "Incremental Analysis - Test 1",
+            "variantId": "15f80e26-128c-4c25-93a5-0a61232dbf37",
+            "variantName": "Show EDD"
+          },
+          "formattedDeliveryDate": "Sat, Nov 23",
+          "guaranteedDeliveryDate": "Sat, 23 Nov 2024",
+          "errorMessage": null,
+          "shippingOptionMappingId": null,
+          "packages": [
+            {
+              "carrier": "NEWGISTICS",
+              "carrierZone": "4",
+              "wrapperType": "DEFAULT",
+              "shipperLocId": "manual",
+              "deliveryDate": "Sat, Nov 23",
+              "shippingDate": "19 Nov 2024, 17:00",
+              "shipperZipCode": "60188",
+              "shippingMethod": "PARCEL_SELECT",
+              "actualMethodDesc": "Parcel Select",
+              "externalShippingMethod": null,
+              "offsetInfo": null,
+              "shipmentContents": [
+                {
+                  "skuId": "GS6634-S",
+                  "quantity": 1
+                }
+              ]
+            }
+          ],
+          "premiumShippingResponse": false,
+          "shipCostBreakUp": null,
+          "deliveryTimeInfo": {
+            "shippingTime": 1,
+            "carrierTransitTime": 4,
+            "totalTransitTime": 5
+          },
+          "allocationResponse": null,
+          "orderRoutingInfo": null,
+          "premiumShippingResponseInfo": null,
+          "prePurchaseShippingInfos": null,
+          "shippingDeliveryDate": "Sat, 23 Nov 2024",
+          "hideResponse": true,
+          "code": null
+        },
+        {
+          "webId": "GS6634-S",
+          "hours": "13",
+          "minutes": "6",
+          "response": "Estimated Delivery by <span class=fenix-resp-span-date>Tue, Nov 26</span>, with <span class=fenix-resp-span-shippingname>Expedited Shipping </span>",
+          "transitTime": 0,
+          "calendarTime": 0,
+          "shippingCost": null,
+          "buyerZipCode": "28645",
+          "deliveryZone": "DEFAULT",
+          "shippingDateTime": "19 Nov 2024, 16:00",
+          "internalRequestId": null,
+          "shippingMethodDesc": "Expedited Shipping",
+          "internationalOrder": false,
+          "splitTestInfo": {
+            "testId": "65b76914-4094-4577-aead-499814109f7d",
+            "testName": "Incremental Analysis - Test 1",
+            "variantId": "15f80e26-128c-4c25-93a5-0a61232dbf37",
+            "variantName": "Show EDD"
+          },
+          "formattedDeliveryDate": "Tue, Nov 26",
+          "guaranteedDeliveryDate": "Tue, 26 Nov 2024",
+          "errorMessage": null,
+          "shippingOptionMappingId": null,
+          "packages": [
+            {
+              "carrier": "USPS",
+              "carrierZone": "4",
+              "wrapperType": "DEFAULT",
+              "shipperLocId": "manual",
+              "deliveryDate": "Mon, Nov 25",
+              "shippingDate": "19 Nov 2024, 16:00",
+              "shipperZipCode": "60188",
+              "shippingMethod": "Priority Mail",
+              "actualMethodDesc": "Priority Mail",
+              "externalShippingMethod": null,
+              "offsetInfo": null,
+              "shipmentContents": [
+                {
+                  "skuId": "GS6634-S",
+                  "quantity": 1
+                }
+              ]
+            }
+          ],
+          "premiumShippingResponse": false,
+          "shipCostBreakUp": null,
+          "deliveryTimeInfo": {
+            "shippingTime": 1,
+            "carrierTransitTime": 5,
+            "totalTransitTime": 6
+          },
+          "allocationResponse": null,
+          "orderRoutingInfo": null,
+          "premiumShippingResponseInfo": null,
+          "prePurchaseShippingInfos": null,
+          "shippingDeliveryDate": "Mon, 25 Nov 2024",
+          "hideResponse": true,
+          "code": null
+        }
+      ],
+      "pickFromStoreResponse": null
+    }
+  },
+  {
+    "_index": "gruntstyle.myshopify.com-derrh-2024.11",
+    "_type": "fenix",
+    "_id": "252de59a-be16-46da-a9b5-d25807cc939d",
+    "_score": 1,
+    "_source": {
+      "id": "252de59a-be16-46da-a9b5-d25807cc939d",
+      "tenantId": "01976e2d21f545fa89f3f5cff1cb73b6",
+      "sessionTrackId": "MTczMTg1ODgxNjc2Ni13d3cuZ3J1bnRzdHlsZS5jb20tNjAwODY=",
+      "internalSessionId": "0cee1170-09db-4807-bacd-87970de1a6ea",
+      "createdDateTime": 1731880435370,
+      "request": {
+        "cartId": null,
+        "orderId": "no-token",
+        "tenantId": "01976e2d21f545fa89f3f5cff1cb73b6",
+        "pageType": "PDP",
+        "monetaryValue": 20.99,
+        "buyerZipCode": "67201",
+        "platformType": null,
+        "customerType": null,
+        "smartShipping": false,
+        "sessionTrackId": "MTczMTg1ODgxNjc2Ni13d3cuZ3J1bnRzdHlsZS5jb20tNjAwODY=",
+        "responseFormat": "json",
+        "skus": [
+          {
+            "sku": "GS6653-S",
+            "quantity": 1,
+            "leadTime": 0,
+            "weight": {
+              "value": 0.30864716,
+              "units": "LB",
+              "weightInLBS": 0.30864715576171875
+            },
+            "threshold": 0,
+            "category": null,
+            "nonShip": false,
+            "productId": "7433653846067",
+            "variantId": "42695881261107",
+            "productName": "Grinch Grows T-Shirt - Heather Forest Green",
+            "itemType": "REGULAR",
+            "dimensions": {
+              "length": 8,
+              "width": 6,
+              "height": 5,
+              "girth": 3,
+              "thickness": 0,
+              "weightLimit": null,
+              "units": "IN"
+            },
+            "digitalProduct": false,
+            "skuInventories": [],
+            "customerType": "REGULAR"
+          }
+        ],
+        "shopifyRequest": false,
+        "merchantInfo": null,
+        "customerTags": null,
+        "shippingInfo": null,
+        "checkoutInfo": null,
+        "buyerAddress": {
+          "address1": null,
+          "address2": null,
+          "city": null,
+          "country": "US",
+          "state": "KS",
+          "zipcode": "67201",
+          "name": null,
+          "details": null,
+          "residential": null
+        },
+        "residentialAddress": false,
+        "splitTestInfo": {
+          "testId": "65b76914-4094-4577-aead-499814109f7d",
+          "testName": "Incremental Analysis - Test 1",
+          "variantId": "15f80e26-128c-4c25-93a5-0a61232dbf37",
+          "variantName": "Show EDD"
+        },
+        "additionalProcessing": false,
+        "carbonNeutralShipping": false,
+        "serviceInfos": null,
+        "exceptionalTypes": null,
+        "internalSessionUUID": "0cee1170-09db-4807-bacd-87970de1a6ea",
+        "originalSkus": null
+      },
+      "orderId": "no-token",
+      "trackingId": null,
+      "lineItemInfo": "GS6653-S(1)",
+      "buyerAddressInfo": "67201|KS|US",
+      "triggeredDateTime": "2024-11-17T09:53:55.37-06:00",
+      "responses": [
+        {
+          "webId": "GS6653-S",
+          "hours": "13",
+          "minutes": "6",
+          "response": "Estimated Delivery by <span class=fenix-resp-span-date>Fri, Nov 22</span>, with <span class=fenix-resp-span-shippingname>Rush Shipping </span>",
+          "transitTime": 0,
+          "calendarTime": 0,
+          "shippingCost": null,
+          "buyerZipCode": "67201",
+          "deliveryZone": "DEFAULT",
+          "shippingDateTime": "19 Nov 2024, 17:00",
+          "internalRequestId": null,
+          "shippingMethodDesc": "Rush Shipping",
+          "internationalOrder": false,
+          "splitTestInfo": {
+            "testId": "65b76914-4094-4577-aead-499814109f7d",
+            "testName": "Incremental Analysis - Test 1",
+            "variantId": "15f80e26-128c-4c25-93a5-0a61232dbf37",
+            "variantName": "Show EDD"
+          },
+          "formattedDeliveryDate": "Fri, Nov 22",
+          "guaranteedDeliveryDate": "Fri, 22 Nov 2024",
+          "errorMessage": null,
+          "shippingOptionMappingId": null,
+          "packages": [
+            {
+              "carrier": "UPS",
+              "carrierZone": "4",
+              "wrapperType": "DEFAULT",
+              "shipperLocId": "manual",
+              "deliveryDate": "Fri, Nov 22",
+              "shippingDate": "19 Nov 2024, 17:00",
+              "shipperZipCode": "60188",
+              "shippingMethod": "13",
+              "actualMethodDesc": "UPS Next Day Air Saver",
+              "externalShippingMethod": null,
+              "offsetInfo": null,
+              "shipmentContents": [
+                {
+                  "skuId": "GS6653-S",
+                  "quantity": 1
+                }
+              ]
+            }
+          ],
+          "premiumShippingResponse": false,
+          "shipCostBreakUp": null,
+          "deliveryTimeInfo": {
+            "shippingTime": 1,
+            "carrierTransitTime": 3,
+            "totalTransitTime": 4
+          },
+          "allocationResponse": null,
+          "orderRoutingInfo": null,
+          "premiumShippingResponseInfo": null,
+          "prePurchaseShippingInfos": null,
+          "shippingDeliveryDate": "Fri, 22 Nov 2024",
+          "hideResponse": false,
+          "code": null
+        },
+        {
+          "webId": "GS6653-S",
+          "hours": "13",
+          "minutes": "6",
+          "response": "Estimated Delivery by <span class=fenix-resp-span-date>Sat, Nov 23</span>, with <span class=fenix-resp-span-shippingname>Standard Shipping </span>",
+          "transitTime": 0,
+          "calendarTime": 0,
+          "shippingCost": null,
+          "buyerZipCode": "67201",
+          "deliveryZone": "DEFAULT",
+          "shippingDateTime": "19 Nov 2024, 17:00",
+          "internalRequestId": null,
+          "shippingMethodDesc": "Standard Shipping",
+          "internationalOrder": false,
+          "splitTestInfo": {
+            "testId": "65b76914-4094-4577-aead-499814109f7d",
+            "testName": "Incremental Analysis - Test 1",
+            "variantId": "15f80e26-128c-4c25-93a5-0a61232dbf37",
+            "variantName": "Show EDD"
+          },
+          "formattedDeliveryDate": "Sat, Nov 23",
+          "guaranteedDeliveryDate": "Sat, 23 Nov 2024",
+          "errorMessage": null,
+          "shippingOptionMappingId": null,
+          "packages": [
+            {
+              "carrier": "NEWGISTICS",
+              "carrierZone": "4",
+              "wrapperType": "DEFAULT",
+              "shipperLocId": "manual",
+              "deliveryDate": "Sat, Nov 23",
+              "shippingDate": "19 Nov 2024, 17:00",
+              "shipperZipCode": "60188",
+              "shippingMethod": "PARCEL_SELECT",
+              "actualMethodDesc": "Parcel Select",
+              "externalShippingMethod": null,
+              "offsetInfo": null,
+              "shipmentContents": [
+                {
+                  "skuId": "GS6653-S",
+                  "quantity": 1
+                }
+              ]
+            }
+          ],
+          "premiumShippingResponse": false,
+          "shipCostBreakUp": null,
+          "deliveryTimeInfo": {
+            "shippingTime": 1,
+            "carrierTransitTime": 4,
+            "totalTransitTime": 5
+          },
+          "allocationResponse": null,
+          "orderRoutingInfo": null,
+          "premiumShippingResponseInfo": null,
+          "prePurchaseShippingInfos": null,
+          "shippingDeliveryDate": "Sat, 23 Nov 2024",
+          "hideResponse": false,
+          "code": null
+        },
+        {
+          "webId": "GS6653-S",
+          "hours": "13",
+          "minutes": "6",
+          "response": "Estimated Delivery by <span class=fenix-resp-span-date>Tue, Nov 26</span>, with <span class=fenix-resp-span-shippingname>Expedited Shipping </span>",
+          "transitTime": 0,
+          "calendarTime": 0,
+          "shippingCost": null,
+          "buyerZipCode": "67201",
+          "deliveryZone": "DEFAULT",
+          "shippingDateTime": "19 Nov 2024, 16:00",
+          "internalRequestId": null,
+          "shippingMethodDesc": "Expedited Shipping",
+          "internationalOrder": false,
+          "splitTestInfo": {
+            "testId": "65b76914-4094-4577-aead-499814109f7d",
+            "testName": "Incremental Analysis - Test 1",
+            "variantId": "15f80e26-128c-4c25-93a5-0a61232dbf37",
+            "variantName": "Show EDD"
+          },
+          "formattedDeliveryDate": "Tue, Nov 26",
+          "guaranteedDeliveryDate": "Tue, 26 Nov 2024",
+          "errorMessage": null,
+          "shippingOptionMappingId": null,
+          "packages": [
+            {
+              "carrier": "USPS",
+              "carrierZone": "4",
+              "wrapperType": "DEFAULT",
+              "shipperLocId": "manual",
+              "deliveryDate": "Mon, Nov 25",
+              "shippingDate": "19 Nov 2024, 16:00",
+              "shipperZipCode": "60188",
+              "shippingMethod": "Priority Mail",
+              "actualMethodDesc": "Priority Mail",
+              "externalShippingMethod": null,
+              "offsetInfo": null,
+              "shipmentContents": [
+                {
+                  "skuId": "GS6653-S",
+                  "quantity": 1
+                }
+              ]
+            }
+          ],
+          "premiumShippingResponse": false,
+          "shipCostBreakUp": null,
+          "deliveryTimeInfo": {
+            "shippingTime": 1,
+            "carrierTransitTime": 5,
+            "totalTransitTime": 6
+          },
+          "allocationResponse": null,
+          "orderRoutingInfo": null,
+          "premiumShippingResponseInfo": null,
+          "prePurchaseShippingInfos": null,
+          "shippingDeliveryDate": "Mon, 25 Nov 2024",
+          "hideResponse": false,
+          "code": null
+        }
+      ],
+      "pickFromStoreResponse": null
+    }
+  }
+]
