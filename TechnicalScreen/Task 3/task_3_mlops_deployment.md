@@ -244,8 +244,6 @@ spec:
 
 ---
 
-## Summary
-
 This MLOps strategy provides:
 - **Robust Production API**: FastAPI with Docker containerization
 - **Comprehensive Monitoring**: Prometheus/Grafana for operational and model metrics
